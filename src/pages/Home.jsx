@@ -8,8 +8,10 @@ import Fab from "@mui/material/Fab";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import Zoom from "@mui/material/Zoom";
 import Header from "../components/Header";
+import Menubar from "../components/Menubar";
 import HomeContent from "../components/HomeContent";
 import HomePageContent from "../components/HomePageContent";
+import Banner from "../components/Banner";
 
 function ScrollTop(props) {
   const { children, window } = props;
@@ -60,9 +62,11 @@ ScrollTop.propTypes = {
 export default function Home(props) {
   return (
     <React.Fragment>
+      {/* <Toolbar id="back-to-top-anchor" style={{ height: "0px !important", overflow: 'hidden' }} /> */}
       <CssBaseline />
-      <Header />
-      <Toolbar id="back-to-top-anchor" />
+      {/* <Header /> */}
+      <Menubar />
+      <Banner />
       {/* <HomeContent /> */}
       <HomePageContent />
       <ScrollTop {...props}>

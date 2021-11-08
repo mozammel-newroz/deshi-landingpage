@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
@@ -15,13 +16,13 @@ import youtube from "../assets/images/youtube.svg";
 
 const useStyle = makeStyles((theme) => ({
   root: {
-    marginTop: 200,
+    marginTop: 140,
     paddingTop: 40,
     background: "#FCFCFC",
     // background: "#F0F0F0",
     [theme.breakpoints.down("sm")]: {
-    marginTop: 30
-    }
+      marginTop: 30,
+    },
   },
   icon_block: {
     display: "flex",
@@ -79,20 +80,21 @@ const useStyle = makeStyles((theme) => ({
     justifyContent: "space-between",
   },
   copyright: {
-    fontSize: "0.9rem !important", color: "#666 !important",
+    fontSize: "0.9rem !important",
+    color: "#666 !important",
     [theme.breakpoints.down("sm")]: {
       // textAlign: 'left !important'
-    }
-  }
+    },
+  },
 }));
 function Footer() {
   const classes = useStyle();
   return (
     <div className={classes.root}>
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" id="contact">
         <Grid container spacing={3}>
           <Grid item md={5}>
-            <img src={logo} alt="" />
+            <img src={logo} alt="" style={{ marginBottom: 20 }} />
             <Typography variant="body2" className={classes.content}>
               The Bangladesh Bank is already taking steps to ensure MFS
               interoperability by the end of this year.
@@ -109,7 +111,7 @@ function Footer() {
             <div className={classes.icon_block}>
               <img src={phone} alt="" />
               <Typography variant="body2">
-                +880 9876 543 210 <br />
+                +880 1234 567 890 <br />
                 +880 9876 543 210
               </Typography>
             </div>
@@ -117,7 +119,7 @@ function Footer() {
               <img src={email} alt="" />
               <Typography variant="body2">
                 info@dpay-email.com <br />
-                info@dpay-email.com
+                help@dpay-email.com
               </Typography>
             </div>
             <div className={classes.icon_block}>
@@ -166,25 +168,30 @@ function Footer() {
           // alignContent="center"
         >
           <div>
-            <Typography
-              variant="body1"
-              className={classes.copyright}
-            >
+            <Typography variant="body1" className={classes.copyright}>
               &copy; Copyrigt 2021. All Rights Reserved by Deshi
             </Typography>
           </div>
           <div className={classes.bottom_menu}>
             <Button variant="text" className={classes.menu_item}>
-              <Typography variant="subtitle1">Help</Typography>
+              <Link to="/help">
+                <Typography variant="subtitle1">Help</Typography>
+              </Link>
             </Button>
             <Button variant="text" className={classes.menu_item}>
-              <Typography variant="subtitle1">Privacy & Policy</Typography>
+              <Link to="privacy-policy">
+                <Typography variant="subtitle1">Privacy & Policy</Typography>
+              </Link>
             </Button>
             <Button variant="text" className={classes.menu_item}>
-              <Typography variant="subtitle1">Terms & Condition</Typography>
+              <Link to="/terms-condition">
+                <Typography variant="subtitle1">Terms & Condition</Typography>
+              </Link>
             </Button>
             <Button variant="text" className={classes.menu_item}>
-              <Typography variant="subtitle1">FAQ</Typography>
+              <Link to="/faq">
+                <Typography variant="subtitle1">FAQ</Typography>
+              </Link>
             </Button>
           </div>
         </div>
