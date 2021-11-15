@@ -37,12 +37,14 @@ const useStyle = makeStyles((theme) => ({
   },
   logo: {
     [theme.breakpoints.down("md")]: {
-      width: "30%",
+      width: "130px",
     },
     [theme.breakpoints.down("sm")]: {
       marginLeft: 0,
       width: "70px",
       marginRight: 10,
+      marginTop: 8
+      
     },
   },
   menu: {
@@ -102,9 +104,9 @@ const useStyle = makeStyles((theme) => ({
       border: "0px solid #ddd",
       background: "rgba(0,0,0,0)",
     },
-    // [theme.breakpoints.down("xl")]: {
-    //   marginLeft: 5,
-    // },
+    [theme.breakpoints.down("sm")]: {
+      marginLeft: 5,
+    },
   },
 }));
 
@@ -115,7 +117,7 @@ const Header = () => {
       <div className={classes.root} id="back-to-top-anchor">
         <Container maxWidth="lg">
           <Grid container>
-            <Grid item md={8} sm={8} className={classes.top_bar}>
+            <Grid item  xs={4} sm={8} md={8}  className={classes.top_bar}>
               <NavBar />
               <Link to="/">
                 <img src={logo} alt="" className={classes.logo} />
@@ -135,8 +137,9 @@ const Header = () => {
             </Grid>
             <Grid
               item
-              md={4}
+              xs={8}
               sm={4}
+              md={4}
               className={` ${classes.top_bar} ${classes.language_wrapper} `}
             >
               <Button variant="contained" className={classes.get_started}>

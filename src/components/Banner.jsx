@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { makeStyles } from "@mui/styles";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
@@ -156,7 +157,7 @@ const Banner = () => {
                 your money go further
               </Typography>
               <Button variant="contained" className={classes.signup}>
-                <a href="#pricing">Signup for Free</a>
+                <Link to="/signup">Signup for Free</Link>
               </Button>
             </Grid>
           </Grid>
@@ -204,7 +205,7 @@ const Banner = () => {
                   <Grid item md={3} xs={6}>
                     <div className="" style={{ textAlign: "right" }}>
                       <Button variant="contained" className={classes.business}>
-                        <a href="#pricing">Deshi for Business</a>
+                        <a href="#business">Deshi for Business</a>
                       </Button>
                     </div>
                   </Grid>

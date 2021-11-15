@@ -7,6 +7,7 @@ import Help from "./pages/Help";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsCondition from "./pages/TermsCondition";
 import Faq from "./pages/Faq";
+import Signup from "./pages/auth/Signup";
 
 const theme = createTheme({
   palette: {
@@ -60,6 +61,9 @@ function App() {
           </Route>
           <Route path="/faq">
             <Faq />
+          </Route>
+          <Route path="/signup">
+            <Signup />
           </Route>
         </Switch>
       </Router>

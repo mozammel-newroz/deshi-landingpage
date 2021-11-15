@@ -3,6 +3,10 @@ import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import { makeStyles } from "@mui/styles";
+import InputLabel from "@mui/material/InputLabel";
+import MenuItem from "@mui/material/MenuItem";
+import FormControl from "@mui/material/FormControl";
+import Select from "@mui/material/Select";
 import CheckIcon from "@mui/icons-material/Check";
 import HeaderOthers from "../components/HeaderOthers";
 import Footer from "../components/Footer";
@@ -32,11 +36,10 @@ const useStyle = makeStyles((theme) => ({
     top: 5,
   },
   select: {
-    width: "100%",
-    padding: 20,
-    border: "1px solid #ddd",
-    background: "rgba(0,0,0,0)",
-    fontSize: "1.1rem",
+    marginBottom: 30,
+  },
+  footer: {
+    marginTop: "-80px",
   },
 }));
 
@@ -50,10 +53,24 @@ const Help = () => {
         <Container maxWidth="lg">
           <Grid container spacing={2}>
             <Grid item md={12}>
-              <select name="" id="" className={classes.select}>
-                <option value="">Who we are?</option>
-                <option value="">Who we are?</option>
-              </select>
+              <div className={classes.select}>
+                <FormControl fullWidth>
+                  <InputLabel id="demo-simple-select-label">
+                    Table of Content
+                  </InputLabel>
+                  <Select
+                    labelId="demo-simple-select-label"
+                    id="demo-simple-select"
+                    // value={age}
+                    label="Table of Content"
+                    // onChange={handleChange}
+                  >
+                    <MenuItem value={10}>Who we are?</MenuItem>
+                    <MenuItem value={10}>Who we are?</MenuItem>
+                    <MenuItem value={10}>Who we are?</MenuItem>
+                  </Select>
+                </FormControl>
+              </div>
 
               <Typography className={classes.title}>Who we are?</Typography>
               <Typography className={classes.content}>
@@ -97,7 +114,9 @@ const Help = () => {
           </Grid>
         </Container>
       </div>
-      <Footer />
+      <div className={classes.footer}>
+        <Footer />
+      </div>
     </>
   );
 };

@@ -5,7 +5,6 @@ import Button from "@mui/material/Button";
 import MenuIcon from "@mui/icons-material/Menu";
 import menu_icon from "../assets/images/menu_icon.png";
 
-
 const useStyle = makeStyles((theme) => ({
   menu_item: {
     // color: "#fff !important",
@@ -20,6 +19,13 @@ const useStyle = makeStyles((theme) => ({
   menu_icon: {
     [theme.breakpoints.up("sm")]: {
       display: "none",
+    },
+  },
+  menu_icon_image: {
+    [theme.breakpoints.down("sm")]: {
+      // width: "30PX",
+      // margin: 0,
+      // padding: 0
     },
   },
   icon: {
@@ -59,7 +65,7 @@ export default function NavBar() {
           <div className={classes.menu_icon}>
             <Button onClick={toggleDrawer(anchor, true)}>
               {/* <MenuIcon className={classes.icon} /> */}
-              <img src={menu_icon} alt="" />
+              <img src={menu_icon} className={classes.menu_icon_image} alt="" />
             </Button>
           </div>
           <Drawer
