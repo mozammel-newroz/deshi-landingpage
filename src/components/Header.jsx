@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { makeStyles } from "@mui/styles";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
@@ -230,7 +231,7 @@ const Header = () => {
               className={` ${classes.top_bar} ${classes.language_wrapper} `}
             >
               <Button variant="contained" className={classes.get_started}>
-                <a href="#pricing">Get Started</a>
+                <Link to="/signup">Get Started</Link>
               </Button>
               <div className={classes.language}>
                 <img src={glob} alt="" />

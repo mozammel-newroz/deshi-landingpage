@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
@@ -45,6 +46,14 @@ const useStyle = makeStyles((theme) => ({
 
 const Faq = () => {
   const classes = useStyle();
+
+  const location = useLocation();
+
+  useEffect(() => {
+    // let path = "/faq";
+    // let pathName = location.pathname;
+      window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>

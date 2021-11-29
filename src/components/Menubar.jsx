@@ -43,8 +43,7 @@ const useStyle = makeStyles((theme) => ({
       marginLeft: 0,
       width: "70px",
       marginRight: 10,
-      marginTop: 8
-      
+      marginTop: 8,
     },
   },
   menu: {
@@ -117,7 +116,7 @@ const Header = () => {
       <div className={classes.root} id="back-to-top-anchor">
         <Container maxWidth="lg">
           <Grid container>
-            <Grid item  xs={4} sm={8} md={8}  className={classes.top_bar}>
+            <Grid item xs={4} sm={8} md={8} className={classes.top_bar}>
               <NavBar />
               <Link to="/">
                 <img src={logo} alt="" className={classes.logo} />
@@ -143,7 +142,7 @@ const Header = () => {
               className={` ${classes.top_bar} ${classes.language_wrapper} `}
             >
               <Button variant="contained" className={classes.get_started}>
-                <a href="#pricing">Get Started</a>
+                <Link to="/signup">Get Started</Link>
               </Button>
               <div className={classes.language}>
                 <img src={glob} alt="" />

@@ -78,28 +78,22 @@ export default function NavBar() {
               className={classes.menu_item}
               onClick={toggleDrawer(anchor, false)}
             >
-              Overview
+              <a href="#personal">Personal</a>
+            </Button>
+
+            <Button
+              variant="text"
+              className={classes.menu_item}
+              onClick={toggleDrawer(anchor, false)}
+            >
+              <a href="#business">Business</a>
             </Button>
             <Button
               variant="text"
               className={classes.menu_item}
               onClick={toggleDrawer(anchor, false)}
             >
-              Documentation
-            </Button>
-            <Button
-              variant="text"
-              className={classes.menu_item}
-              onClick={toggleDrawer(anchor, false)}
-            >
-              Use Case
-            </Button>
-            <Button
-              variant="text"
-              className={classes.menu_item}
-              onClick={toggleDrawer(anchor, false)}
-            >
-              <a href="#pricing">Pricing</a>
+              <a href="#contact">Contact</a>
             </Button>
           </Drawer>
         </React.Fragment>
