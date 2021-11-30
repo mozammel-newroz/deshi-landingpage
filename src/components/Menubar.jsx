@@ -47,6 +47,10 @@ const useStyle = makeStyles((theme) => ({
     },
   },
   menu: {
+    display: "flex",
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
     margin: "0px 50px",
     [theme.breakpoints.down("sm")]: {
       display: "none",
@@ -57,7 +61,7 @@ const useStyle = makeStyles((theme) => ({
   },
   menu_item: {
     color: "#666 !important",
-    padding: "0px 20px !important",
+    padding: "7px 30px !important",
     fontSize: "1.1rem !important",
     textTransform: "capitalize !important",
     "& a": {
@@ -116,7 +120,7 @@ const Header = () => {
       <div className={classes.root} id="back-to-top-anchor">
         <Container maxWidth="lg">
           <Grid container>
-            <Grid item xs={4} sm={8} md={8} className={classes.top_bar}>
+            <Grid item xs={4} sm={8} md={10} className={classes.top_bar}>
               <NavBar />
               <Link to="/">
                 <img src={logo} alt="" className={classes.logo} />
@@ -138,7 +142,7 @@ const Header = () => {
               item
               xs={8}
               sm={4}
-              md={4}
+              md={2}
               className={` ${classes.top_bar} ${classes.language_wrapper} `}
             >
               <Button variant="contained" className={classes.get_started}>
