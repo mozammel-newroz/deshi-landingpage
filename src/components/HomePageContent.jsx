@@ -13,6 +13,8 @@ import five from "../assets/images/five.png";
 import six from "../assets/images/six.png";
 import seven from "../assets/images/saven.png";
 import circle1 from "../assets/images/circle1.png";
+import circle2 from "../assets/images/circle2.png";
+import circle3 from "../assets/images/circle3.png";
 import arrow1 from "../assets/images/arrow1.png";
 import arrow2 from "../assets/images/arrow2.png";
 
@@ -21,9 +23,9 @@ import Footer from "./Footer";
 const useStyle = makeStyles((theme) => ({
   section: {
     borderRadius: "10px 10px 300px 10px",
-    backgroundImage: `url(${circle1}),  linear-gradient(to  right, #FBFBFB, #eee)`,
+    backgroundImage: `url(${circle2}),  linear-gradient(to  right,  #FCFCFC, #FAFAFA)`,
     backgroundRepeat: "no-repeat",
-    backgroundPosition: "left top",
+    backgroundPosition: "bottom right",
     marginTop: 105,
     [theme.breakpoints.down("sm")]: {
       marginTop: 0,
@@ -32,9 +34,10 @@ const useStyle = makeStyles((theme) => ({
   },
   section_two: {
     borderRadius: "10px 10px 10px 300px",
-    backgroundImage: `url(${circle1}),  linear-gradient(to  right, #FBFBFB, #eee)`,
+    backgroundImage: `url(${circle3}),  linear-gradient(to  right,  #FCFCFC, #FAFAFA)`,
+
     backgroundRepeat: "no-repeat",
-    backgroundPosition: "left top",
+    backgroundPosition: "left bottom",
     marginTop: 160,
     [theme.breakpoints.down("sm")]: {
       marginTop: 60,
@@ -211,8 +214,6 @@ const HomePageContent = () => {
                           </Typography>
                         </div>
                       </Grid>
-
-                      
                     </Grid>
                   </div>
                 </Grid>

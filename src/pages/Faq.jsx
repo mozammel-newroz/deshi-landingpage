@@ -1,4 +1,10 @@
 import React, { useEffect } from "react";
+
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+
 import { useLocation } from "react-router-dom";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
@@ -48,77 +54,147 @@ const Faq = () => {
   const classes = useStyle();
 
   const location = useLocation();
+  const [expanded, setExpanded] = React.useState(false);
+
+  const handleChange = (panel) => (event, isExpanded) => {
+    setExpanded(isExpanded ? panel : false);
+  };
 
   useEffect(() => {
     // let path = "/faq";
     // let pathName = location.pathname;
-      window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
   }, []);
 
   return (
     <>
-      <HeaderOthers title="FAQ" />
+      <HeaderOthers title="Freaquently Ask Question" />
       <div className={classes.root}>
         <Container maxWidth="lg">
           <Grid container spacing={2}>
             <Grid item md={12}>
-              <div className={classes.select}>
-                <FormControl fullWidth>
-                  <InputLabel id="demo-simple-select-label">
-                    Table of Content
-                  </InputLabel>
-                  <Select
-                    labelId="demo-simple-select-label"
-                    id="demo-simple-select"
-                    // value={age}
-                    label="Table of Content"
-                    // onChange={handleChange}
-                  >
-                    <MenuItem value={10}>Who we are?</MenuItem>
-                    <MenuItem value={10}>Who we are?</MenuItem>
-                    <MenuItem value={10}>Who we are?</MenuItem>
-                  </Select>
-                </FormControl>
-              </div>
+              <Accordion
+                expanded={expanded === "panel1"}
+                onChange={handleChange("panel1")}
+              >
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1bh-content"
+                  id="panel1bh-header"
+                >
+                  <Typography>
+                    Can I Receive Payments From Personal Deshi Account?
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography variant="body2">
+                    DESHI is a financial technology service provider wallet,
+                    licensed as a Payment Service Provider (PSP) by Bangladesh
+                    Bank. The purpose of the app is to keep the society
+                    cashless, make life convenient and to provide seamless and
+                    secure Digital Financial and Lifestyle Services.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
 
-              <Typography className={classes.title}>Who we are?</Typography>
-              <Typography className={classes.content}>
-                The G&R group is made up of different companies. We will let you
-                know which Revolut company you have a relationship with when you
-                first apply for or use a Revolut product or service.
-              </Typography>
-              <Typography className={classes.content}>
-                You can always tell which G&R company you have a primary
-                relationship with by scrolling to the bottom of the ‘settings’
-                section in the G&R app.
-              </Typography>
-              <Typography className={classes.content}>
-                <CheckIcon className={classes.icon} />
-                Allow you to manage and review your marketing choices at any
-                time.
-              </Typography>
-              <Typography className={classes.content}>
-                <CheckIcon className={classes.icon} />
-                any of the services you can get access to through the Revolut
-                app or website.
-              </Typography>
-              <Typography className={classes.content}>
-                When we say ‘personal data’, we mean information which can be
-                used to personally identify you (for example, a combination of
-                your name and postal address).
-              </Typography>
-              <Typography className={classes.subtitle}>
-                THIS POLICY CONTAINS IMPORTANT INFORMATION
-              </Typography>
-              <Typography className={classes.content}>
-                This policy explains what information we collect, how we use it,
-                and your rights if you want to change how we use your personal
-                data.
-              </Typography>
-              <Typography className={classes.content}>
-                If you have concerns about how we use your personal data, you
-                can contact our Data Protection Officer at dpo@revolut.com.
-              </Typography>
+              <Accordion
+                expanded={expanded === "panel2"}
+                onChange={handleChange("panel2")}
+              >
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1bh-content2"
+                  id="panel1bh-header2"
+                >
+                  <Typography>
+                    Can my customer save a PDF copy of an invoice I sent?
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography variant="body2">
+                    DESHI is a financial technology service provider wallet,
+                    licensed as a Payment Service Provider (PSP) by Bangladesh
+                    Bank. The purpose of the app is to keep the society
+                    cashless, make life convenient and to provide seamless and
+                    secure Digital Financial and Lifestyle Services.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+
+              <Accordion
+                expanded={expanded === "panel3"}
+                onChange={handleChange("panel3")}
+              >
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1bh-content3"
+                  id="panel1bh-header3"
+                >
+                  <Typography>
+                    Are there any limits to what I can transfer into the
+                    account?
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography variant="body2">
+                    DESHI is a financial technology service provider wallet,
+                    licensed as a Payment Service Provider (PSP) by Bangladesh
+                    Bank. The purpose of the app is to keep the society
+                    cashless, make life convenient and to provide seamless and
+                    secure Digital Financial and Lifestyle Services.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+
+              <Accordion
+                expanded={expanded === "panel4"}
+                onChange={handleChange("panel4")}
+              >
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1bh-content4"
+                  id="panel1bh-header4"
+                >
+                  <Typography>
+                    Can I transfer money from my PayPal account to my Revolut
+                    Business card?
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography variant="body2">
+                    DESHI is a financial technology service provider wallet,
+                    licensed as a Payment Service Provider (PSP) by Bangladesh
+                    Bank. The purpose of the app is to keep the society
+                    cashless, make life convenient and to provide seamless and
+                    secure Digital Financial and Lifestyle Services.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
+
+              <Accordion
+                expanded={expanded === "panel5"}
+                onChange={handleChange("panel5")}
+              >
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1bh-content5"
+                  id="panel1bh-header5"
+                >
+                  <Typography>
+                    Can I transfer money from my PayPal account to my Revolut
+                    Business card?
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography variant="body2">
+                    DESHI is a financial technology service provider wallet,
+                    licensed as a Payment Service Provider (PSP) by Bangladesh
+                    Bank. The purpose of the app is to keep the society
+                    cashless, make life convenient and to provide seamless and
+                    secure Digital Financial and Lifestyle Services.
+                  </Typography>
+                </AccordionDetails>
+              </Accordion>
             </Grid>
           </Grid>
         </Container>
