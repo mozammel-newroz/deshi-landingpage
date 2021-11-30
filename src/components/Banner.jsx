@@ -47,6 +47,7 @@ const useStyle = makeStyles((theme) => ({
     background: `url(${banner_bg}), linear-gradient(to right, #34A853, #017C3F)`,
     // padding: "120px 0px",
     height: 700,
+    // padding: 20,
     color: "#fff",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "right bottom",
@@ -62,7 +63,9 @@ const useStyle = makeStyles((theme) => ({
     paddingBottom: 10,
   },
   banner_image: {
-    maxWidth: "100%",
+    maxWidth: "120%",
+    position: "relative",
+    bottom: -52,
     [theme.breakpoints.down("sm")]: {
       display: "none",
     },
@@ -98,6 +101,10 @@ const useStyle = makeStyles((theme) => ({
     position: "relative",
     top: -50,
   },
+  banner_text: {
+    fontSize: "1.6rem !important",
+    maxWidth: 600,
+  },
   header_subtitle: {
     [theme.breakpoints.down("sm")]: {
       fontSize: "1rem !important",
@@ -131,7 +138,7 @@ const Banner = () => {
   return (
     <div>
       <div className={classes.banner}>
-        <Container maxWidth="lg">
+        <Container maxWidth="xl">
           <Grid
             container
             spacing={1}
@@ -149,12 +156,15 @@ const Banner = () => {
             </Grid>
             <Grid item sm={7} className={classes.padding_banner_text}>
               <Typography variant="h2" className={classes.banner_headline}>
-                Send money & shop
+                Spend . Save . Manage
               </Typography>
-              <Typography variant="h3">with one easy account</Typography>
+              <Typography variant="h3" className={classes.banner_text}>
+                Deshi connects you to the digital financial ecosystem, explore
+                it today!
+              </Typography>
               <Typography variant="subtitle1" className={classes.margin_bottom}>
-                Open a free account in minutes right from your phone, and make
-                your money go further
+                Within a minute, register a new account and unlock exciting
+                features
               </Typography>
               <Button variant="contained" className={classes.signup}>
                 <Link to="/signup">Signup for Free</Link>

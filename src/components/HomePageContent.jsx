@@ -20,23 +20,25 @@ import { makeStyles } from "@mui/styles";
 import Footer from "./Footer";
 const useStyle = makeStyles((theme) => ({
   section: {
-    borderRadius: "100px 10px 10px 10px",
+    borderRadius: "10px 10px 300px 10px",
     backgroundImage: `url(${circle1}),  linear-gradient(to  right, #FBFBFB, #eee)`,
     backgroundRepeat: "no-repeat",
     backgroundPosition: "left top",
     marginTop: 105,
     [theme.breakpoints.down("sm")]: {
       marginTop: 0,
+      borderRadius: "10px 10px 100px 10px",
     },
   },
   section_two: {
-    borderRadius: "10px 10px 100px 10px",
+    borderRadius: "10px 10px 10px 300px",
     backgroundImage: `url(${circle1}),  linear-gradient(to  right, #FBFBFB, #eee)`,
     backgroundRepeat: "no-repeat",
     backgroundPosition: "left top",
     marginTop: 160,
     [theme.breakpoints.down("sm")]: {
       marginTop: 60,
+      borderRadius: "10px 10px 100px 10px",
     },
   },
   section1: {
@@ -60,8 +62,8 @@ const useStyle = makeStyles((theme) => ({
     "&::before": {
       content: "''",
       position: "absolute",
-      right: -350,
-      top: "45%",
+      right: -250,
+      top: -24,
       width: 260,
       height: 100,
       backgroundImage: `url(${arrow1})`,
@@ -77,8 +79,8 @@ const useStyle = makeStyles((theme) => ({
     "&::before": {
       content: "''",
       position: "absolute",
-      left: -410,
-      top: "45%",
+      left: -250,
+      top: -24,
       width: 260,
       height: 100,
       backgroundImage: `url(${arrow2})`,
@@ -88,19 +90,19 @@ const useStyle = makeStyles((theme) => ({
   section1_img: {
     position: "absolute",
     // right: -150,
-    bottom: 0,
+    top: -24,
   },
   section2_img: {
     position: "absolute",
     left: -180,
-    bottom: -140,
+    top: -24,
   },
   section1_left: {
     padding: 50,
   },
   icon_block: {
     display: "flex",
-    alignItems: "center",
+    alignItems: "flex-start",
     margin: "20px 0px",
     [theme.breakpoints.down("sm")]: {
       margin: "10px 0px",
@@ -120,6 +122,12 @@ const useStyle = makeStyles((theme) => ({
   brand_color: {
     color: "#08A858",
   },
+  subtitle1: {
+    fontSize: "1.0rem !important",
+    fontWeight: "400 !important",
+    display: "block",
+    marginTop: 7,
+  },
 }));
 
 const HomePageContent = () => {
@@ -137,51 +145,74 @@ const HomePageContent = () => {
                       <Grid item md={12}>
                         <Typography variant="h2">
                           <span className={classes.brand_color}>Deshi</span> for{" "}
-                          <br /> Personal Use
+                          <br /> Consumers
                         </Typography>
                         <Typography variant="subtitle1">
-                          Let us be a part of your journey, We promise to make
-                          it fun
+                          Enjoy amazing cashback and discount offers and get
+                          more out of your money every day
                         </Typography>
                       </Grid>
-                      <Grid item md={6} xs={6}>
+
+                      <Grid item md={12} xs={12}>
                         <div className={classes.icon_block}>
                           <img src={one} alt="" />
                           <Typography variant="h6">
-                            Bill <br /> Payment
+                            Send/Request Money
+                            <span className={classes.subtitle1}>
+                              The feature allows you to send money to your loved
+                              ones whenever there is a need, free of cost. And
+                              when you need money? Simply request and receive
+                              money instantaneously.
+                            </span>
                           </Typography>
                         </div>
                       </Grid>
-                      <Grid item md={6} xs={6}>
+
+                      <Grid item md={12} xs={12}>
                         <div className={classes.icon_block}>
-                          <img src={two} alt="" />
+                          <img src={one} alt="" />
                           <Typography variant="h6">
-                            Mobile
-                            <br />
-                            Recharge
+                            Exciting Deals/Vouchers
+                            <span className={classes.subtitle1}>
+                              Get super saver deals right from your Deshi Wallet
+                              from thousands of popular brands. The wallet
+                              contains discount vouchers, which you could buy
+                              and gift to others with ease.
+                            </span>
                           </Typography>
                         </div>
                       </Grid>
-                      <Grid item md={6} xs={6}>
+
+                      <Grid item md={12} xs={12}>
                         <div className={classes.icon_block}>
-                          <img src={three} alt="" />
+                          <img src={one} alt="" />
                           <Typography variant="h6">
-                            Send
-                            <br />
-                            Money
+                            Bill Payment
+                            <span className={classes.subtitle1}>
+                              Pay bills with a few clicks right from your
+                              wallet. Paying Utility, ISP, DTH and other bills
+                              from the comfort of your home has never been
+                              easier.
+                            </span>
                           </Typography>
                         </div>
                       </Grid>
-                      <Grid item md={6} xs={6}>
+
+                      <Grid item md={12} xs={12}>
                         <div className={classes.icon_block}>
-                          <img src={four} alt="" />
+                          <img src={one} alt="" />
                           <Typography variant="h6">
-                            Receive
-                            <br />
-                            Money
+                            Scan and Pay
+                            <span className={classes.subtitle1}>
+                              Scan QR and Pay merchants right from your wallet.
+                              It’s quick, fast and secure. Go cashless with
+                              Deshi!
+                            </span>
                           </Typography>
                         </div>
                       </Grid>
+
+                      
                     </Grid>
                   </div>
                 </Grid>
@@ -223,34 +254,64 @@ const HomePageContent = () => {
                       <Grid item md={12}>
                         <Typography variant="h2">
                           <span className={classes.brand_color}>Deshi</span>{" "}
-                          <br /> for Business Use
+                          <br /> for Business
                         </Typography>
                         <Typography variant="subtitle1">
-                          Let us be a part of your journey, We promise to make
-                          it fun
+                          We deliver innovative solutions that help you to
+                          accept payments, disburse payments, manage your
+                          business, and grow efficiently.
                         </Typography>
                       </Grid>
-                      <Grid item md={6} xs={6}>
+
+                      <Grid item md={12} xs={12}>
                         <div className={classes.icon_block}>
-                          <img src={five} alt="" />
+                          <img src={one} alt="" />
                           <Typography variant="h6">
-                          Marchant Ease <br /> Onboarding
+                            Online
+                            <span className={classes.subtitle1}>
+                              Grow your business with the online payment that
+                              empowers you to expand your business horizon.
+                            </span>
                           </Typography>
                         </div>
                       </Grid>
-                      <Grid item md={6} xs={6}>
+
+                      <Grid item md={12} xs={12}>
                         <div className={classes.icon_block}>
-                          <img src={six} alt="" />
+                          <img src={one} alt="" />
                           <Typography variant="h6">
-                          Hassle-Free <br /> Sattlement
+                            In Person
+                            <span className={classes.subtitle1}>
+                              Take contactless payments with Deshi app, making
+                              it easy and convenient for your customers.
+                            </span>
                           </Typography>
                         </div>
                       </Grid>
-                      <Grid item md={6} xs={6}>
+
+                      <Grid item md={12} xs={12}>
                         <div className={classes.icon_block}>
-                          <img src={seven} alt="" />
+                          <img src={one} alt="" />
                           <Typography variant="h6">
-                          Accept <br /> Payments 
+                            QR Code
+                            <span className={classes.subtitle1}>
+                              Upgrade your business with Deshi QR Code to
+                              receive touch free payments.
+                            </span>
+                          </Typography>
+                        </div>
+                      </Grid>
+
+                      <Grid item md={12} xs={12}>
+                        <div className={classes.icon_block}>
+                          <img src={one} alt="" />
+                          <Typography variant="h6">
+                            Phone/Email
+                            <span className={classes.subtitle1}>
+                              Request and collect remotely from your customers
+                              just by creating a shareable payment link over
+                              phone or Email.
+                            </span>
                           </Typography>
                         </div>
                       </Grid>

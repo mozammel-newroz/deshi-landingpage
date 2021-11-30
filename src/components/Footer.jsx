@@ -96,14 +96,11 @@ function Footer() {
           <Grid item md={5}>
             <img src={logo} alt="" style={{ marginBottom: 20 }} />
             <Typography variant="body2" className={classes.content}>
-              The Bangladesh Bank is already taking steps to ensure MFS
-              interoperability by the end of this year.
+            Discover Deshi, It connects you to the digital finance ecosystem. Entire finance in your mobile app. Deshi empowers you in your financial life. It helps in consumer payments, Lending, Banking, Personal/Business finances through streamlined experiences. Create your Deshi account today! 
+
               <br />
               <br />
-              Following that, users will be able to transfer funds to all
-              operators and banks free of cost. Interoperability will be ensured
-              through two platforms: the Interoperable Digital Transaction
-              Platform (IDTP) and the National Payment Switch Bangladesh (NPSB).
+              Whether you have an account at Deshi, you can do some pretty amazing things - Link your Bank account – To Get Money in and Get Paid from deshi payments. Real-time notifications - instant updates whenever you use your account, Get cashback automatically - Save money on groceries, fashion, travel and more with Deshi.
             </Typography>
           </Grid>
           <Grid item md={5}>
@@ -111,23 +108,24 @@ function Footer() {
             <div className={classes.icon_block}>
               <img src={phone} alt="" />
               <Typography variant="body2">
-                +880 1234 567 890 <br />
-                +880 9876 543 210
+              +880 1958154281 <br />
+              +880 1958154280
               </Typography>
             </div>
             <div className={classes.icon_block}>
               <img src={email} alt="" />
               <Typography variant="body2">
-                info@dpay-email.com <br />
-                help@dpay-email.com
+              psp@green-red.com
               </Typography>
             </div>
             <div className={classes.icon_block}>
               <img src={pin} alt="" />
               <Typography variant="body2">
-                ShareTrip Ltd. 3rd Floor, Taneem Square <br />
-                158/E, Kemal Ataturk Avenue, <br />
-                Banani, Dhaka 1213, Bangladesh
+
+
+                3rd Floor, Taneem Square <br />
+158/E, Kemal Ataturk Avenue, <br />
+Banani, Dhaka 1213, Bangladesh
               </Typography>
             </div>
           </Grid>

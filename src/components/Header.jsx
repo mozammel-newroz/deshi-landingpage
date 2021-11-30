@@ -231,7 +231,7 @@ const Header = () => {
               className={` ${classes.top_bar} ${classes.language_wrapper} `}
             >
               <Button variant="contained" className={classes.get_started}>
-                <Link to="/signup">Get Started</Link>
+                <Link to="/signup">Get Started </Link>
               </Button>
               <div className={classes.language}>
                 <img src={glob} alt="" />
