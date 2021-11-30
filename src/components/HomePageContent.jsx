@@ -18,6 +18,15 @@ import circle3 from "../assets/images/circle3.png";
 import arrow1 from "../assets/images/arrow1.png";
 import arrow2 from "../assets/images/arrow2.png";
 
+import icon1 from "../assets/images/icon/one.png";
+import icon2 from "../assets/images/icon/two.png";
+import icon3 from "../assets/images/icon/three.png";
+import icon4 from "../assets/images/icon/four.png";
+import icon5 from "../assets/images/icon/five.png";
+import icon6 from "../assets/images/icon/six.png";
+import icon7 from "../assets/images/icon/seven.png";
+import icon8 from "../assets/images/icon/eight.png";
+
 import { makeStyles } from "@mui/styles";
 import Footer from "./Footer";
 const useStyle = makeStyles((theme) => ({
@@ -158,7 +167,7 @@ const HomePageContent = () => {
 
                       <Grid item md={12} xs={12}>
                         <div className={classes.icon_block}>
-                          <img src={one} alt="" />
+                          <img src={icon1} alt="" />
                           <Typography variant="h6">
                             Send/Request Money
                             <span className={classes.subtitle1}>
@@ -173,7 +182,7 @@ const HomePageContent = () => {
 
                       <Grid item md={12} xs={12}>
                         <div className={classes.icon_block}>
-                          <img src={one} alt="" />
+                          <img src={icon2} alt="" />
                           <Typography variant="h6">
                             Exciting Deals/Vouchers
                             <span className={classes.subtitle1}>
@@ -188,7 +197,7 @@ const HomePageContent = () => {
 
                       <Grid item md={12} xs={12}>
                         <div className={classes.icon_block}>
-                          <img src={one} alt="" />
+                          <img src={icon3} alt="" />
                           <Typography variant="h6">
                             Bill Payment
                             <span className={classes.subtitle1}>
@@ -203,7 +212,7 @@ const HomePageContent = () => {
 
                       <Grid item md={12} xs={12}>
                         <div className={classes.icon_block}>
-                          <img src={one} alt="" />
+                          <img src={icon4} alt="" />
                           <Typography variant="h6">
                             Scan and Pay
                             <span className={classes.subtitle1}>
@@ -266,7 +275,7 @@ const HomePageContent = () => {
 
                       <Grid item md={12} xs={12}>
                         <div className={classes.icon_block}>
-                          <img src={one} alt="" />
+                          <img src={icon5} alt="" />
                           <Typography variant="h6">
                             Online
                             <span className={classes.subtitle1}>
@@ -279,7 +288,7 @@ const HomePageContent = () => {
 
                       <Grid item md={12} xs={12}>
                         <div className={classes.icon_block}>
-                          <img src={one} alt="" />
+                          <img src={icon6} alt="" />
                           <Typography variant="h6">
                             In Person
                             <span className={classes.subtitle1}>
@@ -292,7 +301,7 @@ const HomePageContent = () => {
 
                       <Grid item md={12} xs={12}>
                         <div className={classes.icon_block}>
-                          <img src={one} alt="" />
+                          <img src={icon7} alt="" />
                           <Typography variant="h6">
                             QR Code
                             <span className={classes.subtitle1}>
@@ -305,7 +314,7 @@ const HomePageContent = () => {
 
                       <Grid item md={12} xs={12}>
                         <div className={classes.icon_block}>
-                          <img src={one} alt="" />
+                          <img src={icon8} alt="" />
                           <Typography variant="h6">
                             Phone/Email
                             <span className={classes.subtitle1}>
