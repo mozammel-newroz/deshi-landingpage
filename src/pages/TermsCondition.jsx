@@ -79,7 +79,7 @@ const TermsCondition = () => {
                   >
                     <MenuItem value="personal">Personal</MenuItem>
                     <MenuItem value="merchant">MerChant</MenuItem>
-                    <MenuItem value="biometric">Biometric</MenuItem>
+                    <MenuItem value="biometric">Biometric Authentication</MenuItem>
                   </Select>
                 </FormControl>
               </div>
