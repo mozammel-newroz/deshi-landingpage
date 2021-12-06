@@ -11,6 +11,7 @@ import HeaderOthers from "../components/HeaderOthers";
 import Footer from "../components/Footer";
 import PersonalTC from "../components/PersonalTC";
 import MerchantTC from "../components/MerchnatTC";
+import BioMetric from "../components/BioMetric";
 
 const useStyle = makeStyles((theme) => ({
   root: {
@@ -78,12 +79,14 @@ const TermsCondition = () => {
                   >
                     <MenuItem value="personal">Personal</MenuItem>
                     <MenuItem value="merchant">MerChant</MenuItem>
+                    <MenuItem value="biometric">Biometric</MenuItem>
                   </Select>
                 </FormControl>
               </div>
 
               {doc === "personal" && <PersonalTC />}
               {doc === "merchant" && <MerchantTC />}
+              {doc === "biometric" && <BioMetric />}
             </Grid>
           </Grid>
         </Container>
