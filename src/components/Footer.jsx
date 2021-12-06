@@ -77,7 +77,8 @@ const useStyle = makeStyles((theme) => ({
   },
   bottom_menu: {
     display: "flex",
-    justifyContent: "space-between",
+    // justifyContent: "space-between",
+    justifyContent: "flex-end",
   },
   copyright: {
     fontSize: "0.9rem !important",
@@ -171,11 +172,11 @@ Banani, Dhaka 1213, Bangladesh
             </Typography>
           </div>
           <div className={classes.bottom_menu}>
-            <Button variant="text" className={classes.menu_item}>
+            {/* <Button variant="text" className={classes.menu_item}>
               <Link to="/help">
                 <Typography variant="subtitle1">Help</Typography>
               </Link>
-            </Button>
+            </Button> */}
             {/* <Button variant="text" className={classes.menu_item}>
               <Link to="privacy-policy">
                 <Typography variant="subtitle1">Privacy & Policy</Typography>
