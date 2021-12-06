@@ -176,11 +176,11 @@ Banani, Dhaka 1213, Bangladesh
                 <Typography variant="subtitle1">Help</Typography>
               </Link>
             </Button>
-            <Button variant="text" className={classes.menu_item}>
+            {/* <Button variant="text" className={classes.menu_item}>
               <Link to="privacy-policy">
                 <Typography variant="subtitle1">Privacy & Policy</Typography>
               </Link>
-            </Button>
+            </Button> */}
             <Button variant="text" className={classes.menu_item}>
               <Link to="/terms-condition">
                 <Typography variant="subtitle1">Terms & Condition</Typography>
