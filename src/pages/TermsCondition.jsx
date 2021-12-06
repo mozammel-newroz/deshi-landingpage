@@ -1,7 +1,6 @@
-import React, {useEffect} from "react";
+import React, { useEffect, useState } from "react";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
 import { makeStyles } from "@mui/styles";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -10,6 +9,8 @@ import Select from "@mui/material/Select";
 import CheckIcon from "@mui/icons-material/Check";
 import HeaderOthers from "../components/HeaderOthers";
 import Footer from "../components/Footer";
+import PersonalTC from "../components/PersonalTC";
+import MerchantTC from "../components/MerchnatTC";
 
 const useStyle = makeStyles((theme) => ({
   root: {
@@ -19,6 +20,7 @@ const useStyle = makeStyles((theme) => ({
     fontSize: "1.5rem !important",
     fontWeight: "500 !important",
     marginBottom: "20px !important",
+    textAlign: "center",
   },
   content: {
     fontSize: "1rem",
@@ -41,10 +43,15 @@ const useStyle = makeStyles((theme) => ({
   footer: {
     marginTop: "-80px",
   },
+  center: {
+    textAlign: "center",
+  },
 }));
 
 const TermsCondition = () => {
   const classes = useStyle();
+
+  const [doc, setDoc] = useState("personal");
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -65,55 +72,18 @@ const TermsCondition = () => {
                   <Select
                     labelId="demo-simple-select-label"
                     id="demo-simple-select"
-                    // value={age}
+                    value={doc}
                     label="Table of Content"
-                    // onChange={handleChange}
+                    onChange={(e) => setDoc(e.target.value)}
                   >
-                    <MenuItem value={10}>Who we are?</MenuItem>
-                    <MenuItem value={10}>Who we are?</MenuItem>
-                    <MenuItem value={10}>Who we are?</MenuItem>
+                    <MenuItem value="personal">Personal</MenuItem>
+                    <MenuItem value="merchant">MerChant</MenuItem>
                   </Select>
                 </FormControl>
               </div>
 
-              <Typography className={classes.title}>Who we are?</Typography>
-              <Typography className={classes.content}>
-                The G&R group is made up of different companies. We will let you
-                know which Revolut company you have a relationship with when you
-                first apply for or use a Revolut product or service.
-              </Typography>
-              <Typography className={classes.content}>
-                You can always tell which G&R company you have a primary
-                relationship with by scrolling to the bottom of the ‘settings’
-                section in the G&R app.
-              </Typography>
-              <Typography className={classes.content}>
-                <CheckIcon className={classes.icon} />
-                Allow you to manage and review your marketing choices at any
-                time.
-              </Typography>
-              <Typography className={classes.content}>
-                <CheckIcon className={classes.icon} />
-                any of the services you can get access to through the Revolut
-                app or website.
-              </Typography>
-              <Typography className={classes.content}>
-                When we say ‘personal data’, we mean information which can be
-                used to personally identify you (for example, a combination of
-                your name and postal address).
-              </Typography>
-              <Typography className={classes.subtitle}>
-                THIS POLICY CONTAINS IMPORTANT INFORMATION
-              </Typography>
-              <Typography className={classes.content}>
-                This policy explains what information we collect, how we use it,
-                and your rights if you want to change how we use your personal
-                data.
-              </Typography>
-              <Typography className={classes.content}>
-                If you have concerns about how we use your personal data, you
-                can contact our Data Protection Officer at dpo@revolut.com.
-              </Typography>
+              {doc === "personal" && <PersonalTC />}
+              {doc === "merchant" && <MerchantTC />}
             </Grid>
           </Grid>
         </Container>
