@@ -120,7 +120,11 @@ const Signup = () => {
                   <a href="#" target="_blank" rel="noopener noreferrer">
                     <img src={apple_store} alt="" />
                   </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.deshi.personal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img src={google_playstore} alt="" />
                   </a>
                   <Typography
