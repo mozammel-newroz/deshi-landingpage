@@ -120,38 +120,54 @@ const MerchantTC = () => {
       <h4>3. Eligibility</h4>
 
       <p>
-      a) You will be "Eligible" to be a Merchant account holder of Deshi, if: <br />
-        ◦ You are an entity registered in Bangladesh and all your licenses and certificates are up to date and renewed appropriately. <br />
-        ◦ You have a corporate account with a schedule bank or MFS provider in Bangladesh. <br />
-        ◦ You do not provide any of the goods or services listed, which are banned under applicable laws and may be updated from time to time. <br />
+        a) You will be "Eligible" to be a Merchant account holder of Deshi, if:{" "}
+        <br />
+        ◦ You are an entity registered in Bangladesh and all your licenses and
+        certificates are up to date and renewed appropriately. <br />
+        ◦ You have a corporate account with a schedule bank or MFS provider in
+        Bangladesh. <br />
+        ◦ You do not provide any of the goods or services listed, which are
+        banned under applicable laws and may be updated from time to time.{" "}
+        <br />
         ◦ You operate your business within Bangladesh. <br />
         ◦ You receive payments only in BDT currency. and <br />
-        ◦ You or your authorized representative authorized by company or partnership has attained more than 18 (eighteen) years of age and is competent to enter into a contract. <br />
-    b) You may apply or continue to be a Merchant account holder only if you are Eligible. If you are not Eligible, please immediately abandon any and all attempts to register with us. <br />
-    c) We reserve the right to terminate your Merchant account at any time for any reason whatsoever. <br />
-    d) We rely completely on your representation that you are Eligible and will bear no responsibility if you or anyone who uses your Account or Deshi Wallet is found to not be Eligible. <br />
-    e) For micro merchant please check section 11 <br />
-    f) Deshi may require the following information and/or documents from you- <br />
-    I. Name; <br />
-    II. Father’s name; <br />
-    III. Mother’s name; <br />
-    IV. Address; <br />
-    V. National Identification Document (NID); <br />
-    VI. Passport; <br />
-    VII. Photo; <br />
-    VIII. Mobile Number; <br />
-    IX. Driving License; <br />
-    X. Tax Identification Number (TIN); <br />
-    XI. Bank account details; <br />
-    XII. Details of Credit card/Debit Card/Bank card/Visa/Mastercard/American Express; <br />
-    XIII. E-mail Address; <br />
-    XIV. Business or entity name; <br />
-    XV. Registration and/or incorporation number of the business; <br />
-    XVI. Trade License of the Business; <br />
-    XVII. Details about any persons in the business including proprietor, shareholder, director, partner, or any other persons as may be required; <br />
-    XVIII. Details about any licenses or permits of the business; <br />
-    XIX. Address of the business; and/or <br />
-Any other information and/or documents as may be required by Deshi
+        ◦ You or your authorized representative authorized by company or
+        partnership has attained more than 18 (eighteen) years of age and is
+        competent to enter into a contract. <br />
+        b) You may apply or continue to be a Merchant account holder only if you
+        are Eligible. If you are not Eligible, please immediately abandon any
+        and all attempts to register with us. <br />
+        c) We reserve the right to terminate your Merchant account at any time
+        for any reason whatsoever. <br />
+        d) We rely completely on your representation that you are Eligible and
+        will bear no responsibility if you or anyone who uses your Account or
+        Deshi Wallet is found to not be Eligible. <br />
+        e) For micro merchant please check section 11 <br />
+        f) Deshi may require the following information and/or documents from
+        you- <br />
+        I. Name; <br />
+        II. Father’s name; <br />
+        III. Mother’s name; <br />
+        IV. Address; <br />
+        V. National Identification Document (NID); <br />
+        VI. Passport; <br />
+        VII. Photo; <br />
+        VIII. Mobile Number; <br />
+        IX. Driving License; <br />
+        X. Tax Identification Number (TIN); <br />
+        XI. Bank account details; <br />
+        XII. Details of Credit card/Debit Card/Bank
+        card/Visa/Mastercard/American Express; <br />
+        XIII. E-mail Address; <br />
+        XIV. Business or entity name; <br />
+        XV. Registration and/or incorporation number of the business; <br />
+        XVI. Trade License of the Business; <br />
+        XVII. Details about any persons in the business including proprietor,
+        shareholder, director, partner, or any other persons as may be required;{" "}
+        <br />
+        XVIII. Details about any licenses or permits of the business; <br />
+        XIX. Address of the business; and/or <br />
+        Any other information and/or documents as may be required by Deshi
       </p>
 
       <h4>4. General Business Rules</h4>
@@ -219,8 +235,6 @@ Any other information and/or documents as may be required by Deshi
         e-wallet without prior notice if you violate the terms and conditions
         laid down by Deshi or for any other reason.
       </p>
-
-      
 
       <h4>5. Password Policy</h4>
       <p>
@@ -367,7 +381,7 @@ Any other information and/or documents as may be required by Deshi
         contact your Bank. <br />
         k) In case of any issue associated with Deshi account, you are requested
         to contact Deshi Customer Care Center by calling 0000000, by sending
-        e-mail to support@Deshi.com.bd, by raising a ticket or by live chat from
+        e-mail to support@deshipay.com, by raising a ticket or by live chat from
         our application.
       </p>
       <h4>9. Services Given by Third Party Networks</h4>
@@ -462,20 +476,35 @@ Any other information and/or documents as may be required by Deshi
         associated with your Bank account or service. <br />
         s) In case of any issue associated with Deshi account, you are requested
         to contact Deshi Customer Care Center by calling 000000, by sending
-        e-mail to support@Deshi.com.bd, by raising a ticket or by live chat from
+        e-mail to support@deshipay.com, by raising a ticket or by live chat from
         our application.
       </p>
 
       <h4>11. Micro Merchant Account</h4>
 
       <p>
-      a) All the terms and conditions of Deshi business wallet are applicable for micro merchant accounts except limit, fees & charges and wallet hold limit. <br />
-    b) Micro merchants will be boarded by the authorized representatives/promoters of Deshi. <br />
-    c) Monthly Transaction Limit for micro merchant account will be BDT 10,00,000. <br />
-    d) The Wallet Holding Limit at any point of time for a micro merchant account will be BDT 5,00,000. <br />
-    e) If a personal account holder wants to have a business account s/he is eligible to convert his/her personal account into a micro merchant account by using the same NID number. However, the personal account holder will be required to satisfy any additional requirement that may be necessary to operate as a merchant account holder. <br />
-    f) This conversion process will be for free of cost. However, if any government authorities require any additional payment for such conversion, you will be solely responsible to make such payments.” <br />
-    g) The authorized representatives/promoters may ask for additional documents to board a micro merchant approved by local representatives (i.e- Chairman, ward commissioner, MP, any cooperative society that represents his/her profession) for professional verification.
+        a) All the terms and conditions of Deshi business wallet are applicable
+        for micro merchant accounts except limit, fees & charges and wallet hold
+        limit. <br />
+        b) Micro merchants will be boarded by the authorized
+        representatives/promoters of Deshi. <br />
+        c) Monthly Transaction Limit for micro merchant account will be BDT
+        10,00,000. <br />
+        d) The Wallet Holding Limit at any point of time for a micro merchant
+        account will be BDT 5,00,000. <br />
+        e) If a personal account holder wants to have a business account s/he is
+        eligible to convert his/her personal account into a micro merchant
+        account by using the same NID number. However, the personal account
+        holder will be required to satisfy any additional requirement that may
+        be necessary to operate as a merchant account holder. <br />
+        f) This conversion process will be for free of cost. However, if any
+        government authorities require any additional payment for such
+        conversion, you will be solely responsible to make such payments.”{" "}
+        <br />
+        g) The authorized representatives/promoters may ask for additional
+        documents to board a micro merchant approved by local representatives
+        (i.e- Chairman, ward commissioner, MP, any cooperative society that
+        represents his/her profession) for professional verification.
       </p>
 
       <h4>12. Usage of Product</h4>
@@ -560,10 +589,6 @@ Any other information and/or documents as may be required by Deshi
         s) All the information provided by you is true and accurate.
       </p>
 
-
-
-     
-
       {/* <h4>12. Fee structure for the Product</h4>
       <p>
         {" "}
@@ -572,7 +597,7 @@ Any other information and/or documents as may be required by Deshi
         wrongly paid to you. <br />
         b) All charges applicable to the Deshi service are set forth in a
         separate fee schedule available at the website of Deshi
-        (www.Deshi.com.bd) and as may be published from time to time by Green
+        (www.deshipay.com) and as may be published from time to time by Green
         and Red Technologies Limited (G&R) and are subject to change at any time
         at G&R’s sole discretion. <br />
         c) Any Fees and other amounts (such as- VAT etc.) due and payable to
@@ -585,76 +610,111 @@ Any other information and/or documents as may be required by Deshi
       <h4>13. Fees and charges</h4>
 
       <p>
-      a) Any payments made to you by us will be governed by the following terms: <br />
-     i. The net payments will be made available by us to you after making the following adjustments, deductions and any other deductions in terms of these terms and conditions from the amount of the transaction: <br />
-         a. the fees, charges, etc. due to us in terms of these terms and conditions as amended from time to time for all transactions processed.
-         b. all costs, charges, expenses, etc. of whatsoever nature on account of, inquiries, disputes, cancellations and/or refunds processed on account of your customer charges and/or chargeback. <br />
-         c. any VAT/Tax applicable in any manner. <br />
-     ii. We will reconcile the accounts and thereafter make payment to you, subject to our obligations to withhold payment of the amount arrived for any reason mandated under applicable laws, these terms and conditions or terms of any agreements entered into us and yourself. <br />
-     iii. We will be entitled to set off and/or deduct from any payment due to you, such payments that are subsequently determined to be not due and/or wrongly paid to you. <br />
-     iv. You agree that subject to applicable laws, we are authorized and entitled to debit your account for VAT, service Tax, bank charges, other applicable Taxes,  <br />refund (s) to customers and any other amounts due and payable by you to us in terms of these terms and conditions in any other manner whatsoever. <br />
-    b) All charges applicable to the Deshi service are set forth in a separate fee schedule available at the website of Deshi (www.Deshi.com.bd) and as may be published from time to time by Green and Red Technologies Limited (G&R) and are subject to change at any time at G&R’s sole discretion and your continued use of Deshi services will be presumed that you are have accepted the new fees. <br />
-    c) 12.3 We reserve the right to seek indemnities from you for losses suffered by us under any heads of claims permissible under applicable laws or for any reason, such as: <br />
-     i. Any transaction is for any reason unlawful or unenforceable; <br />
-     ii. Any transaction made outside the territory authorized for the use of such instrument; <br />
-     iii. Any transaction that is doubtful or erroneously paid for, to you; or <br />
-    d) We reserve the right to discontinue the service on any of these grounds or for any other grounds that we consider necessary and recover such amounts from you and to be indemnified in relation to any losses in connection thereto.
+        a) Any payments made to you by us will be governed by the following
+        terms: <br />
+             i. The net payments will be made available by us to you after
+        making the following adjustments, deductions and any other deductions in
+        terms of these terms and conditions from the amount of the transaction:{" "}
+        <br />
+                 a. the fees, charges, etc. due to us in terms of these terms
+        and conditions as amended from time to time for all transactions
+        processed.          b. all costs, charges, expenses, etc. of whatsoever
+        nature on account of, inquiries, disputes, cancellations and/or refunds
+        processed on account of your customer charges and/or chargeback. <br />
+                 c. any VAT/Tax applicable in any manner. <br />
+             ii. We will reconcile the accounts and thereafter make payment to
+        you, subject to our obligations to withhold payment of the amount
+        arrived for any reason mandated under applicable laws, these terms and
+        conditions or terms of any agreements entered into us and yourself.{" "}
+        <br />
+             iii. We will be entitled to set off and/or deduct from any payment
+        due to you, such payments that are subsequently determined to be not due
+        and/or wrongly paid to you. <br />
+             iv. You agree that subject to applicable laws, we are authorized
+        and entitled to debit your account for VAT, service Tax, bank charges,
+        other applicable Taxes, <br />
+        refund (s) to customers and any other amounts due and payable by you to
+        us in terms of these terms and conditions in any other manner
+        whatsoever. <br />
+        b) All charges applicable to the Deshi service are set forth in a
+        separate fee schedule available at the website of Deshi
+        (www.deshipay.com) and as may be published from time to time by Green
+        and Red Technologies Limited (G&R) and are subject to change at any time
+        at G&R’s sole discretion and your continued use of Deshi services will
+        be presumed that you are have accepted the new fees. <br />
+        c) 12.3 We reserve the right to seek indemnities from you for losses
+        suffered by us under any heads of claims permissible under applicable
+        laws or for any reason, such as: <br />
+             i. Any transaction is for any reason unlawful or unenforceable;{" "}
+        <br />
+             ii. Any transaction made outside the territory authorized for the
+        use of such instrument; <br />
+             iii. Any transaction that is doubtful or erroneously paid for, to
+        you; or <br />
+        d) We reserve the right to discontinue the service on any of these
+        grounds or for any other grounds that we consider necessary and recover
+        such amounts from you and to be indemnified in relation to any losses in
+        connection thereto.
       </p>
-
-      
 
       <h4>14. Responsibilities and obligations of the account holder</h4>
       <p>
-
-     
-      a) You shall be responsible for all transactions, including erroneous/mistakenly done transactions initiated through Deshi, mobile number and PIN; regardless of whether such transactions are authorized by you. You will also be responsible for the loss/damage, if any suffered in respect of all such transactions. <br />
-    b) You shall take all possible steps to ensure that the PIN, Password and OTPs are not shared with any unauthorized person and shall contact Deshi customer care center in case of misuse/ theft/loss of the mobile phone. <br />
-    c) It will be your responsibility to notify Deshi immediately if you suspect the misuse of the PIN/Password. <br />
-    d) You shall be liable for all loss or breach of the terms and conditions contained herein or contributed or caused the loss by negligent actions or a failure to advise Deshi within a reasonable time about any unauthorized access in the Wallet.
-
+        a) You shall be responsible for all transactions, including
+        erroneous/mistakenly done transactions initiated through Deshi, mobile
+        number and PIN; regardless of whether such transactions are authorized
+        by you. You will also be responsible for the loss/damage, if any
+        suffered in respect of all such transactions. <br />
+        b) You shall take all possible steps to ensure that the PIN, Password
+        and OTPs are not shared with any unauthorized person and shall contact
+        Deshi customer care center in case of misuse/ theft/loss of the mobile
+        phone. <br />
+        c) It will be your responsibility to notify Deshi immediately if you
+        suspect the misuse of the PIN/Password. <br />
+        d) You shall be liable for all loss or breach of the terms and
+        conditions contained herein or contributed or caused the loss by
+        negligent actions or a failure to advise Deshi within a reasonable time
+        about any unauthorized access in the Wallet.
       </p>
 
       <h4>15. Others</h4>
 
-<p>
-  {" "}
-  a) Your instructions will be affected only after authentication under
-  your Registered number and PIN or through any other mode of verification
-  as may be stipulated at the discretion of Deshi. <br />
-  b) Deshi shall make all reasonable efforts to ensure that your
-  information is kept confidential. <br />
-  c) You will be required to acquaint yourself with the process for using
-  the Product and that you shall be responsible for any error made while
-  using the Product. <br />
-  d) Deshi reserves the right to decide what services may be offered.
-  Additions/ deletions to the services offered under the product are at
-  its sole discretion. <br />
-  e) While it shall be the endeavor of Deshi to carry out the instructions
-  received from you promptly, it shall not be responsible for the delay/
-  failure in carrying out the instructions due to any reasons whatsoever
-  including failure of operational system or due to any requirement of
-  law. You expressly authorize Deshi to access your e-wallet information
-  required for offering features under the service and also to share the
-  information regarding your e-Wallet with the service provider/ third
-  party as may be required to provide the services. <br />
-  f) The transactional details will be recorded by Deshi and these records
-  will be regarded as conclusive proof of the authenticity and accuracy of
-  transactions. <br />
-  g) You hereby authorize Deshi or its representatives to send promotional
-  messages including the products, greetings, advertising or any other
-  messages Deshi may consider from time to time. <br />
-  h) You understand that Deshi may send "rejection" or "cannot process the
-  request" messages for the service requested by you which could not be
-  executed for any reason. <br />
-  i) Deshi reserves the right to replace or amend its features, facilities
-  and charges, and the information and materials pertaining to such
-  features, facilities and charges, in relation to the services provided
-  by Deshi, its contents, website, or any of its products
-</p>
+      <p>
+        {" "}
+        a) Your instructions will be affected only after authentication under
+        your Registered number and PIN or through any other mode of verification
+        as may be stipulated at the discretion of Deshi. <br />
+        b) Deshi shall make all reasonable efforts to ensure that your
+        information is kept confidential. <br />
+        c) You will be required to acquaint yourself with the process for using
+        the Product and that you shall be responsible for any error made while
+        using the Product. <br />
+        d) Deshi reserves the right to decide what services may be offered.
+        Additions/ deletions to the services offered under the product are at
+        its sole discretion. <br />
+        e) While it shall be the endeavor of Deshi to carry out the instructions
+        received from you promptly, it shall not be responsible for the delay/
+        failure in carrying out the instructions due to any reasons whatsoever
+        including failure of operational system or due to any requirement of
+        law. You expressly authorize Deshi to access your e-wallet information
+        required for offering features under the service and also to share the
+        information regarding your e-Wallet with the service provider/ third
+        party as may be required to provide the services. <br />
+        f) The transactional details will be recorded by Deshi and these records
+        will be regarded as conclusive proof of the authenticity and accuracy of
+        transactions. <br />
+        g) You hereby authorize Deshi or its representatives to send promotional
+        messages including the products, greetings, advertising or any other
+        messages Deshi may consider from time to time. <br />
+        h) You understand that Deshi may send "rejection" or "cannot process the
+        request" messages for the service requested by you which could not be
+        executed for any reason. <br />
+        i) Deshi reserves the right to replace or amend its features, facilities
+        and charges, and the information and materials pertaining to such
+        features, facilities and charges, in relation to the services provided
+        by Deshi, its contents, website, or any of its products
+      </p>
 
-
-
-<h4>16. User Information</h4>
+      <h4>16. User Information</h4>
 
       <p>
         a) You agree that you shall defend, indemnify and hold Deshi harmless
@@ -728,14 +788,41 @@ Any other information and/or documents as may be required by Deshi
 
       <h4>17. Refund, Chargeback and VOID</h4>
       <p>
-      a) Refund/Chargeback request should be initiated within 15 days of settlement of the transaction. <br />
-    b) Chargeback will be claimed by the wallet account holder through raising a ticket from app or web portal. Each chargeback is accompanied by a reason. These reasons offer an explanation as to why the consumer is disputing the transaction. Each reason has its own set of rules (filing time limits, necessary documentation, etc.). Deshi will check the customer’s chargeback claim, making sure all the regulations have been addressed. <br />
-    c) If the customer has a valid claim, the funds will be removed from your wallet account and credited to the customer’s account. If the account holder doesn’t have a valid claim, the chargeback will be voided. <br />
-    d) If the chargeback is justified, you should accept the losses. However, if the business has sufficient compelling evidence (documentation to prove the chargeback is invalid), the merchant can represent the chargeback for review. If a chargeback process is successful, it will auto reconcile customers, Deshi and Merchant. Merchant will be liable to pay the fees associated with the disputed transaction. <br />
-    e) If a customer wants to return a purchase or wants a refund for non-delivery items it will be followed by the merchant’s prescribed terms and conditions. If you find the request valid as per your business policy, you can initiate the refund through the application. Merchant will be liable to pay the fees associated with the transaction amount. <br />
-    f) The merchant application (Android/ iOS) will provide you the access to initiate a Refund or a VOID transaction. The merchant shall be solely responsible for any defect or problems associated with the application. <br />
-    g) Through Deshi's Settlement' feature, you will be able to VOID or cancel any transaction done by mistakenly after it has been authorized but before it has been settled. <br />
-    h) If we receive a request for Refund/chargeback of payment, the dispute resolution process will be followed and it will vary case to case.
+        a) Refund/Chargeback request should be initiated within 15 days of
+        settlement of the transaction. <br />
+        b) Chargeback will be claimed by the wallet account holder through
+        raising a ticket from app or web portal. Each chargeback is accompanied
+        by a reason. These reasons offer an explanation as to why the consumer
+        is disputing the transaction. Each reason has its own set of rules
+        (filing time limits, necessary documentation, etc.). Deshi will check
+        the customer’s chargeback claim, making sure all the regulations have
+        been addressed. <br />
+        c) If the customer has a valid claim, the funds will be removed from
+        your wallet account and credited to the customer’s account. If the
+        account holder doesn’t have a valid claim, the chargeback will be
+        voided. <br />
+        d) If the chargeback is justified, you should accept the losses.
+        However, if the business has sufficient compelling evidence
+        (documentation to prove the chargeback is invalid), the merchant can
+        represent the chargeback for review. If a chargeback process is
+        successful, it will auto reconcile customers, Deshi and Merchant.
+        Merchant will be liable to pay the fees associated with the disputed
+        transaction. <br />
+        e) If a customer wants to return a purchase or wants a refund for
+        non-delivery items it will be followed by the merchant’s prescribed
+        terms and conditions. If you find the request valid as per your business
+        policy, you can initiate the refund through the application. Merchant
+        will be liable to pay the fees associated with the transaction amount.{" "}
+        <br />
+        f) The merchant application (Android/ iOS) will provide you the access
+        to initiate a Refund or a VOID transaction. The merchant shall be solely
+        responsible for any defect or problems associated with the application.{" "}
+        <br />
+        g) Through Deshi's Settlement' feature, you will be able to VOID or
+        cancel any transaction done by mistakenly after it has been authorized
+        but before it has been settled. <br />
+        h) If we receive a request for Refund/chargeback of payment, the dispute
+        resolution process will be followed and it will vary case to case.
       </p>
 
       <h4>18. Disclaimer</h4>
@@ -796,7 +883,16 @@ Any other information and/or documents as may be required by Deshi
 
       <h4>19. Right to use logos</h4>
       <p>
-      You may be permitted to prominently display, on your official website and in other online marketing materials if applicable, a statement/logo/trademark/image provided by Deshi. This statement/logo/image may be prominently displayed to all Users as notified by Deshi from time to time. You acknowledge that Deshi is the sole and exclusive owner of its trademarks, service marks, logos and/or any other marks, and agree that you will not contest the ownership of the said marks for any reason whatsoever. You also accept that Deshi may at any time, immediately and without advance notice prohibit you from using any of the marks for any reason.
+        You may be permitted to prominently display, on your official website
+        and in other online marketing materials if applicable, a
+        statement/logo/trademark/image provided by Deshi. This
+        statement/logo/image may be prominently displayed to all Users as
+        notified by Deshi from time to time. You acknowledge that Deshi is the
+        sole and exclusive owner of its trademarks, service marks, logos and/or
+        any other marks, and agree that you will not contest the ownership of
+        the said marks for any reason whatsoever. You also accept that Deshi may
+        at any time, immediately and without advance notice prohibit you from
+        using any of the marks for any reason.
       </p>
       <h4>20. Prohibited actions and Transactions</h4>
       <p>The following transactions or actions are prohibited:</p>
@@ -828,10 +924,33 @@ Any other information and/or documents as may be required by Deshi
       </p>
       <h4>21. Responsibility for Security as Per PCI DSS</h4>
       <p>
-      Deshi has established security procedures and shall make reasonable efforts consistent with industry standards to protect cardholder data, meet all applicable audit requirements and comply with PCI DSS (hereinafter “Payment Card Industry Data Security Standards”) and such other applicable rules, regulations, codes of practice, guidance and industry standards related to the handling and processing of credit card data in force from time to time during the term hereof “Payment Card Issuer Requirements”, as established by the PCI Security Standards Council.
-Deshi is responsible for the security of cardholder data Deshi possesses or otherwise stores, processes, or transmits on Customer’s behalf, or to the extent Deshi could impact the security of Customer’s cardholder data environment.
-Deshi agrees to comply with all applicable PCI DSS requirements to the extent that Deshi handles, has access to, or otherwise stores, processes or transmits Customer’s cardholder data, or manages Customer’s cardholder data environment.
-Deshi agrees to comply with all applicable laws that require notification of individuals or parties in the event of unauthorized disclosure of cardholder data. Pursuant to the provisions hereof, in the event of a breach of any of Deshi’s security obligations relating to PCI or other event requiring notification under applicable law, Deshi agrees to assume responsibility for informing all such individuals in accordance with applicable laws, and, subject to the indemnity and limitations on liability provisions contained herein. As a merchant or a service provider of Deshi you must comply with all applicable PCI DSS requirements to the extent that you handle, have access to, or otherwise store, process or transmit Customer’s cardholder data, or manage Customer’s cardholder data environment.
+        Deshi has established security procedures and shall make reasonable
+        efforts consistent with industry standards to protect cardholder data,
+        meet all applicable audit requirements and comply with PCI DSS
+        (hereinafter “Payment Card Industry Data Security Standards”) and such
+        other applicable rules, regulations, codes of practice, guidance and
+        industry standards related to the handling and processing of credit card
+        data in force from time to time during the term hereof “Payment Card
+        Issuer Requirements”, as established by the PCI Security Standards
+        Council. Deshi is responsible for the security of cardholder data Deshi
+        possesses or otherwise stores, processes, or transmits on Customer’s
+        behalf, or to the extent Deshi could impact the security of Customer’s
+        cardholder data environment. Deshi agrees to comply with all applicable
+        PCI DSS requirements to the extent that Deshi handles, has access to, or
+        otherwise stores, processes or transmits Customer’s cardholder data, or
+        manages Customer’s cardholder data environment. Deshi agrees to comply
+        with all applicable laws that require notification of individuals or
+        parties in the event of unauthorized disclosure of cardholder data.
+        Pursuant to the provisions hereof, in the event of a breach of any of
+        Deshi’s security obligations relating to PCI or other event requiring
+        notification under applicable law, Deshi agrees to assume responsibility
+        for informing all such individuals in accordance with applicable laws,
+        and, subject to the indemnity and limitations on liability provisions
+        contained herein. As a merchant or a service provider of Deshi you must
+        comply with all applicable PCI DSS requirements to the extent that you
+        handle, have access to, or otherwise store, process or transmit
+        Customer’s cardholder data, or manage Customer’s cardholder data
+        environment.
       </p>
       <h4>22. Governing Law & Jurisdictions</h4>
       <p>
@@ -892,7 +1011,7 @@ Deshi agrees to comply with all applicable laws that require notification of ind
       <table className="myTable">
         <tr>
           <th colSpan="3" className={classes.center}>
-          Transaction Limit for Merchant Wallet
+            Transaction Limit for Merchant Wallet
           </th>
         </tr>
         <tr>
@@ -931,13 +1050,11 @@ Deshi agrees to comply with all applicable laws that require notification of ind
           <td>Transfer to Bank A/C</td>
           <td>As per Transaction Profile</td>
         </tr>
-
-        
       </table>
       <p>
-      Note: * Deshi reserves the right to change the limit structure at its discretion.
+        Note: * Deshi reserves the right to change the limit structure at its
+        discretion.
       </p>
-     
     </div>
   );
 };

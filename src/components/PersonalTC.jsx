@@ -286,10 +286,10 @@ const PersonalTC = () => {
         Here is a list of "don’ts": <br />
         • Don't send your password through email <br />
         • Don't talk/type password in front of others <br />
-        • Please at all the time keep your password confidential <br />
-        • In an event that you feel your password may be compromised, please
-        change the password or call our customer service to block your account.{" "}
-        <br />• Don't reveal a password to anyone even to our Call center
+        • Please at all the time keep your password confidential <br />• In an
+        event that you feel your password may be compromised, please change the
+        password or call our customer service to block your account. <br />•
+        Don't reveal a password to anyone even to our Call center
       </p>
 
       <h4>6. Identity authentication (KYC)</h4>
@@ -410,7 +410,7 @@ const PersonalTC = () => {
         contact your Bank. <br />
         k) In case of any issue associated with Deshi account, you are requested
         to contact Deshi Customer Care Center by calling 0000000, by sending
-        e-mail to support@Deshi.com.bd, by raising a ticket or by live chat from
+        e-mail to support@deshipay.com, by raising a ticket or by live chat from
         our application.
       </p>
       <h4>9. Services Given by Third Party Networks</h4>
@@ -505,7 +505,7 @@ const PersonalTC = () => {
         associated with your Bank account or service. <br />
         s) In case of any issue associated with Deshi account, you are requested
         to contact Deshi Customer Care Center by calling 000000, by sending
-        e-mail to support@Deshi.com.bd, by raising a ticket or by live chat from
+        e-mail to support@deshipay.com, by raising a ticket or by live chat from
         our application.
       </p>
 
@@ -555,7 +555,7 @@ const PersonalTC = () => {
         wrongly paid to you. <br />
         b) All charges applicable to the Deshi service are set forth in a
         separate fee schedule available at the website of Deshi
-        (www.Deshi.com.bd) and as may be published from time to time by Green
+        (www.deshipay.com) and as may be published from time to time by Green
         and Red Technologies Limited (G&R) and are subject to change at any time
         at G&R’s sole discretion. <br />
         c) Any Fees and other amounts (such as- VAT etc.) due and payable to
