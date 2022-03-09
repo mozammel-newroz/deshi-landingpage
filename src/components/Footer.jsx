@@ -127,7 +127,7 @@ function Footer() {
             <div className={classes.icon_block}>
               <img src={pin} alt="" />
               <Typography variant="body2">
-                5rd Floor, Taneem Square <br />
+                5th Floor, Taneem Square <br />
                 158/E, Kemal Ataturk Avenue, <br />
                 Banani, Dhaka 1213, Bangladesh
               </Typography>
