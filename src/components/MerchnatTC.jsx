@@ -66,7 +66,7 @@ const MerchantTC = () => {
 
       <p>
         a) “Deshi” shall mean the Deshi e-wallet applicati <br />
-        b) “Deshi's website” means http://www.Deshi.com.bd <br />
+        b) “Deshi's website” means https://www.deshipay.com <br />
         c) “We” or “Deshi” is referred to as Green and Red Technologies Limited.{" "}
         <br />
         d) “Company” means Green and Red Technologies Limited, the creator of
