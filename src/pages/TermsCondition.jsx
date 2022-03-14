@@ -78,8 +78,10 @@ const TermsCondition = () => {
                     onChange={(e) => setDoc(e.target.value)}
                   >
                     <MenuItem value="personal">Personal</MenuItem>
-                    <MenuItem value="merchant">MerChant</MenuItem>
-                    <MenuItem value="biometric">Biometric Authentication</MenuItem>
+                    <MenuItem value="merchant">Merchant</MenuItem>
+                    <MenuItem value="biometric">
+                      Biometric Authentication
+                    </MenuItem>
                   </Select>
                 </FormControl>
               </div>
