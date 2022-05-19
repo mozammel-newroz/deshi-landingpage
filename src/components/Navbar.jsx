@@ -95,6 +95,13 @@ export default function NavBar() {
             >
               <a href="#contact">Contact</a>
             </Button>
+            <Button
+              variant="text"
+              className={classes.menu_item}
+              onClick={toggleDrawer(anchor, false)}
+            >
+              <a href="/offers">Offers</a>
+            </Button>
           </Drawer>
         </React.Fragment>
       ))}

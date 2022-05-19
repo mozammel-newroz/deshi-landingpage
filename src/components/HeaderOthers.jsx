@@ -13,6 +13,8 @@ const useStyle = makeStyles((theme) => ({
     height: 190,
     background: "#FBFBFB",
     flexDirection: "column",
+    paddingLeft: 8,
+    paddingRight: 8,
     "& h3": {
       fontWeight: 600,
     },
@@ -26,7 +28,7 @@ const useStyle = makeStyles((theme) => ({
   },
 }));
 
-const HeaderOthers = ({ title, link }) => {
+const HeaderOthers = ({ title, link, category }) => {
   const classes = useStyle();
 
   return (
@@ -34,9 +36,14 @@ const HeaderOthers = ({ title, link }) => {
       <CssBaseline />
       <Menubar />
       <div className={classes.root}>
-        <Typography variant="h3">{title}</Typography>
+        {category === "offers" ? (
+          <Typography variant="h3">{category}</Typography>
+        ) : (
+          <Typography variant="h3">{title}</Typography>
+        )}
         <Typography variant="subtile1" className={classes.subtitle}>
           <Link to="/">Home</Link> /{" "}
+          {category === "offers" ? <Link to="#">Offers / </Link> : null}
           <span className={classes.brand_color}>{title}</span>
         </Typography>
       </div>

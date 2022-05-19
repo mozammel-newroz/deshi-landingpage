@@ -136,6 +136,9 @@ const Header = () => {
                 <Button variant="text" className={classes.menu_item}>
                   <a href="#contact">Contact</a>
                 </Button>
+                <Button variant="text" className={classes.menu_item}>
+                  <Link to="/offers">Offers</Link>
+                </Button>
               </div>
             </Grid>
             <Grid

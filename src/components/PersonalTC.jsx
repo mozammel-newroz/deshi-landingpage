@@ -65,7 +65,8 @@ const PersonalTC = () => {
       </p>
 
       <p>
-        a) “Deshi” shall mean the Deshi e-wallet applicati <br />
+        a) “Deshi” shall mean the Deshi e-wallet application available in iOS,
+        android in smart phone or tab devices and web version. <br />
         b) “Deshi's website” means https://www.deshipay.com <br />
         c) “We” or “Deshi” is referred to as Green and Red Technologies Limited.{" "}
         <br />
@@ -932,7 +933,7 @@ const PersonalTC = () => {
         </tr>
         <tr>
           <td>Credit Card Bill Payment</td>
-          <td>_.__%</td>
+          <td>1%</td>
         </tr>
         <tr>
           <td>Add Money from Debit/Credit Card</td>
@@ -944,7 +945,7 @@ const PersonalTC = () => {
         </tr>
         <tr>
           <td>Transfer Money to Bank</td>
-          <td>_.__%</td>
+          <td>1%</td>
         </tr>
         <tr>
           <td>Send Money (Wallet to Wallet)</td>
@@ -959,7 +960,7 @@ const PersonalTC = () => {
           <td>Free</td>
         </tr>
         <tr>
-          <td>QR Code Purchase</td>
+          <td>QR Code Payment</td>
           <td>Free</td>
         </tr>
         <tr>
@@ -968,7 +969,7 @@ const PersonalTC = () => {
         </tr>
         <tr>
           <td>ATM Cash Out (minimum withdrawal amount BDT 3000)</td>
-          <td>_.__%</td>
+          <td>1%</td>
         </tr>
       </table>
       <p>

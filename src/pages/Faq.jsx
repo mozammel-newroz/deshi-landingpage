@@ -76,7 +76,7 @@ const Faq = () => {
 
   return (
     <>
-      <HeaderOthers title="Freaquently Ask Question" />
+      <HeaderOthers title="Frequently asked question" />
       <div className={classes.root}>
         <Container maxWidth="lg">
           <Grid container spacing={2}>

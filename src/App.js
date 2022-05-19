@@ -8,6 +8,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsCondition from "./pages/TermsCondition";
 import Faq from "./pages/Faq";
 import Signup from "./pages/auth/Signup";
+import Offers from "./pages/Offers";
 
 const theme = createTheme({
   palette: {
@@ -36,6 +37,9 @@ const theme = createTheme({
     h3: {
       fontSize: "2rem",
     },
+    h4: {
+      fontSize: "1.5rem",
+    },
     h6: {
       fontWeight: 500,
     },
@@ -52,6 +56,9 @@ function App() {
           </Route>
           <Route path="/help">
             <Help />
+          </Route>
+          <Route path="/offers">
+            <Offers />
           </Route>
           <Route path="/privacy-policy">
             <PrivacyPolicy />

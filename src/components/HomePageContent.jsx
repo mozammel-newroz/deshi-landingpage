@@ -5,14 +5,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import screen1 from "../assets/images/screen1.png";
 import screen2 from "../assets/images/screen2.png";
-import one from "../assets/images/one.png";
-import two from "../assets/images/two.png";
-import three from "../assets/images/three.png";
-import four from "../assets/images/four.png";
-import five from "../assets/images/five.png";
-import six from "../assets/images/six.png";
-import seven from "../assets/images/saven.png";
-import circle1 from "../assets/images/circle1.png";
+
 import circle2 from "../assets/images/circle2.png";
 import circle3 from "../assets/images/circle3.png";
 import arrow1 from "../assets/images/arrow1.png";
