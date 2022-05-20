@@ -80,7 +80,7 @@ const Faq = () => {
       <div className={classes.root}>
         <Container maxWidth="lg">
           <Grid container spacing={2}>
-            <Grid item md={12}>
+            <Grid item md={12} style={{ width: "100%" }}>
               <Accordion
                 expanded={expanded === "panel1"}
                 onChange={handleChange("panel1")}

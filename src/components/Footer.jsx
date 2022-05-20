@@ -116,13 +116,14 @@ function Footer() {
             <div className={classes.icon_block}>
               <img src={phone} alt="" />
               <Typography variant="body2">
-                +880 1958154281 <br />
-                +880 1958154280
+                {/* +880 1958154281 <br />
+                +880 1958154280 */}
+                +880 9617343434
               </Typography>
             </div>
             <div className={classes.icon_block}>
               <img src={email} alt="" />
-              <Typography variant="body2">psp@deshipay.com</Typography>
+              <Typography variant="body2">support@deshipay.com</Typography>
             </div>
             <div className={classes.icon_block}>
               <img src={pin} alt="" />

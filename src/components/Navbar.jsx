@@ -4,6 +4,7 @@ import { makeStyles } from "@mui/styles";
 import Button from "@mui/material/Button";
 import MenuIcon from "@mui/icons-material/Menu";
 import menu_icon from "../assets/images/menu_icon.png";
+import { Link } from "react-router-dom";
 
 const useStyle = makeStyles((theme) => ({
   menu_item: {
@@ -100,7 +101,7 @@ export default function NavBar() {
               className={classes.menu_item}
               onClick={toggleDrawer(anchor, false)}
             >
-              <a href="/offers">Offers</a>
+              <Link to="/offers">Offers</Link>
             </Button>
           </Drawer>
         </React.Fragment>
