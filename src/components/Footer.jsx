@@ -13,6 +13,7 @@ import facebook from "../assets/images/facebook.svg";
 import twitter from "../assets/images/twitter.svg";
 import linkedin from "../assets/images/linkedin.svg";
 import youtube from "../assets/images/youtube.svg";
+import instagram from "../assets/images/instagram.png";
 
 const useStyle = makeStyles((theme) => ({
   root: {
@@ -137,30 +138,36 @@ function Footer() {
           <Grid item md={2}>
             <Typography variant="h6">Get Social</Typography>
             <div className={classes.icon_block_wrapper}>
-              <div className={classes.icon_block}>
+              <a className={classes.icon_block} href="https://www.facebook.com/PayWithDeshi" target="_blank" >
                 <img src={facebook} alt="" />
                 <Typography variant="body2" className={classes.hide}>
                   Facebook
                 </Typography>
-              </div>
-              <div className={classes.icon_block}>
+              </a>
+              <a className={classes.icon_block} href="https://twitter.com/PaywithDeshi" target="_blank" >
                 <img src={twitter} alt="" />
                 <Typography variant="body2" className={classes.hide}>
                   Twitter
                 </Typography>
-              </div>
-              <div className={classes.icon_block}>
+              </a>
+              <a className={classes.icon_block} href="https://www.linkedin.com/company/paywithdeshi" target="_blank" >  
                 <img src={linkedin} alt="" />
                 <Typography variant="body2" className={classes.hide}>
                   Linkedin{" "}
                 </Typography>
-              </div>
-              <div className={classes.icon_block}>
+              </a>
+              <a className={classes.icon_block} href="https://www.instagram.com/paywithdeshi" target="_blank" >
+                <img src={instagram} alt="" />
+                <Typography variant="body2" className={classes.hide}>
+                  Instagram
+                </Typography>
+              </a>
+              {/* <div className={classes.icon_block}>
                 <img src={youtube} alt="" />
                 <Typography variant="body2" className={classes.hide}>
                   Youtube
                 </Typography>
-              </div>
+              </div> */}
             </div>
           </Grid>
         </Grid>

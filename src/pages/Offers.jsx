@@ -25,6 +25,7 @@ import {
   Typography,
 } from "@mui/material";
 import { Box } from "@mui/system";
+import OffersFaq from "../components/OffersFaq";
 
 const useStyle = makeStyles((theme) => ({
   root: {
@@ -109,24 +110,21 @@ const Offers = () => {
 
   return (
     <>
-      <HeaderOthers
-        title="10% Instant Cashback at ShareTrip"
-        category="offers"
-      />
+      <HeaderOthers title="Instant Cashback at ShareTrip" category="offers" />
       <div className={classes.root}>
         <Container maxWidth="lg">
           <Grid container spacing={2}>
-            <Grid item md={12}>
+            <Grid item md={12} style={{ width: "100%" }}>
               <Box className={classes.card}>
                 <img src={offer_banner} alt="" className={classes.img} />
                 <Typography variant="h3" className={classes.title}>
-                  10% Instant Cashback at ShareTrip
+                  Instant Cashback at ShareTrip
                 </Typography>
                 <p>
                   Getting cashback in addition to payments sounds fantastic. As
                   a result, Deshi and ShareTrip have come up with a fantastic
                   cashback offer for you. Make any top up to ShareTrip and
-                  receive 10% Instant Cashback via Deshi payment.
+                  receive up to BDT 500 Instant Cashback via Deshi payment.
                 </p>
               </Box>
               <Box className={classes.card}>
@@ -169,59 +167,53 @@ const Offers = () => {
                     marginTop: "24px",
                   }}
                 >
-                  <Table sx={{ overflow: "hidden" }} size="small">
+                  <Table sx={{ overflow: "hidden", border: "0px solid rgba(0,0,0,0)", }} size="small">
                     <TableHead>
                       <TableRow
                         sx={{
-                          "&:last-child td, &:last-child th": {
-                            border: 0,
-                            background: "#F5F5F5",
-                          },
+                          border: "0px solid rgba(0,0,0,0)",
+                          background: '#eee'
                         }}
                       >
-                        <TableCell>Month</TableCell>
-                        <TableCell align="right">
+                        <TableCell align="center" sx={{
+                          border: "0px solid rgba(0,0,0,0)",
+                        }} >Month</TableCell>
+                        <TableCell align="center" sx={{
+                          border: "0px solid rgba(0,0,0,0)",
+                        }}>
                           Transaction Value (BDT)
                         </TableCell>
-                        <TableCell align="right">
+                        <TableCell align="center" sx={{
+                          border: "0px solid rgba(0,0,0,0)",
+                        }}>
                           Cashback Amount (BDT)
                         </TableCell>
                       </TableRow>
                     </TableHead>
                     <TableBody>
-                      <TableRow
-                        sx={{
-                          "&:last-child td, &:last-child th": {
-                            borderLeft: 0,
-                            borderRight: 0,
-                            borderBottom: 1,
-                            borderTop: 1,
-                            borderColor: "#ddd",
-                          },
-                        }}
-                      >
-                        <TableCell component="th" scope="row">
+                      <TableRow>
+                        <TableCell component="th" scope="row" rowSpan="2" sx={{
+                          border: "0px solid rgba(0,0,0,0)",
+                        }}>
                           June ‘22
                         </TableCell>
-                        <TableCell align="right">10,000</TableCell>
-                        <TableCell align="right">500</TableCell>
+                        <TableCell align="center" sx={{
+                          border: "0px solid rgba(0,0,0,0)",
+                        }}>10,000</TableCell>
+                        <TableCell align="center" sx={{
+                          border: "0px solid rgba(0,0,0,0)",
+                        }}>500</TableCell>
                       </TableRow>
-                      <TableRow
-                        sx={{
-                          "&:last-child td, &:last-child th": {
-                            borderLeft: 0,
-                            borderRight: 0,
-                            borderBottom: 1,
-                            borderTop: 1,
-                            borderColor: "#ddd",
-                          },
-                        }}
-                      >
-                        <TableCell component="th" scope="row">
+                      <TableRow>
+                        {/* <TableCell component="th" scope="row">
                           July ‘22
-                        </TableCell>
-                        <TableCell align="right">10,000</TableCell>
-                        <TableCell align="right">500</TableCell>
+                        </TableCell> */}
+                        <TableCell align="center" sx={{
+                          border: "0px solid rgba(0,0,0,0)",
+                        }}>5,000</TableCell>
+                        <TableCell align="center" sx={{
+                          border: "0px solid rgba(0,0,0,0)",
+                        }}>250</TableCell>
                       </TableRow>
                     </TableBody>
                   </Table>
@@ -231,51 +223,48 @@ const Offers = () => {
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                      You can get a maximum cashback up to BDT 250 per
-                      transaction with a minimum transaction value of BDT 5,000.
+                    You can get maximum cashback up to BDT 250 with a minimum transaction value of BDT 5,000 and cashback up to BDT 500 with a minimum transaction value of BDT 10,000. 
                     </span>
                   </li>
 
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                      The payback amount will be deposited into the same Deshi
-                      account from which you will pay the bill.
+                    The payback amount will be deposited into the same Deshi account from which you will pay the bill.
                     </span>
                   </li>
 
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                      This campaign will run from 1st June, 2022 to 31st July,
-                      2022.
+                    This campaign will run from 30th June, 2022.
                     </span>
                   </li>
 
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                      You must have an active Deshi account to receive this cash
-                      back.
+                    You must have an active Deshi account to receive this cash back.
                     </span>
                   </li>
 
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                      "ShareTrip" is entirely responsible for the information,
-                      products, and services related to this Campaign. Under
-                      this promotion, Deshi will only be responsible for the
-                      cashback as a payment service provider.
+                    "ShareTrip" is entirely responsible for the information, products, and services related to this Campaign. Under this promotion, Deshi will only be responsible for the cashback as a payment service provider.
                     </span>
                   </li>
 
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                      Deshi reserves the right to change, modify, or extend
-                      these terms and conditions, as well as to cancel this
-                      campaign, at any time and without warning.
+                    Deshi reserves the right to change, modify, or extend these terms and conditions, as well as to cancel this campaign, at any time and without warning.
+                    </span>
+                  </li>
+                  <li className={classes.li}>
+                    <img src={circle} alt="" className={classes.circle} />
+                    <span>
+                    Any decision made by Deshi regarding this campaign will be made in Deshi's sole discretion and will be considered final.
                     </span>
                   </li>
 
@@ -302,49 +291,45 @@ const Offers = () => {
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                      Deshi will never ask you to reveal your Deshi account's
-                      One-time Password (OTP) or Personal Identification Number
-                      (PIN), nor will they ask you to make any payment to
-                      anyone.
+                    Deshi will never ask you to reveal your Deshi account's One-time Password (OTP) or Personal Identification Number (PIN), nor will they ask you to make any payment to anyone.
                     </span>
                   </li>
 
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                      In the event of a dispute, you will initially contact
-                      ShareTrip during the campaign period at the following
-                      numbers: +8809617617617.
+                    In the event of a dispute, you will initially contact ShareTrip during the campaign period at the following numbers: +8809617617617.
                     </span>
                   </li>
 
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                      It shall contact customers using only +8809617617617. For
-                      any confusion or conflict with regards to this campaign,
-                      you must end any other call and immediately call back to
-                      +8809617617617 to ascertain the authenticity of the call
-                      or for required information.
+                    It shall contact customers using only +8809617617617. For any confusion or conflict with regards to this campaign, you must end any other call and immediately call back to +8809617617617 to ascertain the authenticity of the call or for required information. 
                     </span>
                   </li>
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                      Deshi will not be liable for any loss or damage resulting
-                      from any of the aforementioned reasons or any other
-                      third-party acts.
+                    Deshi will not be liable for any loss or damage resulting from any of the aforementioned reasons or any other third-party acts.
                     </span>
                   </li>
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                      In the event of a conflict between the English version and
-                      the Bangla version of the terms and conditions, the
-                      English version shall prevail.
+                    In the event of a conflict between the English version and the Bangla version of the terms and conditions, the English version shall prevail.
                     </span>
                   </li>
                 </ul>
+              </Box>
+              <Box className={classes.card}>
+                <Typography variant="h4" className={classes.subTitle}>
+                  FAQ
+                </Typography>
+                <Typography variant="body1" mb={2}>
+                  Campaign Related Queries
+                </Typography>
+                <OffersFaq />
               </Box>
               {/* <Box className={classes.offer_bottom} mb={12}>
                 <Grid container>
