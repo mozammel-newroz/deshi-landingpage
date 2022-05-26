@@ -167,53 +167,95 @@ const Offers = () => {
                     marginTop: "24px",
                   }}
                 >
-                  <Table sx={{ overflow: "hidden", border: "0px solid rgba(0,0,0,0)", }} size="small">
+                  <Table
+                    sx={{
+                      overflow: "hidden",
+                      border: "0px solid rgba(0,0,0,0)",
+                    }}
+                    size="small"
+                  >
                     <TableHead>
                       <TableRow
                         sx={{
                           border: "0px solid rgba(0,0,0,0)",
-                          background: '#eee'
+                          background: "#eee",
                         }}
                       >
-                        <TableCell align="center" sx={{
-                          border: "0px solid rgba(0,0,0,0)",
-                        }} >Month</TableCell>
-                        <TableCell align="center" sx={{
-                          border: "0px solid rgba(0,0,0,0)",
-                        }}>
+                        <TableCell
+                          align="center"
+                          sx={{
+                            border: "0px solid rgba(0,0,0,0)",
+                          }}
+                        >
+                          Month
+                        </TableCell>
+                        <TableCell
+                          align="center"
+                          sx={{
+                            border: "0px solid rgba(0,0,0,0)",
+                          }}
+                        >
                           Transaction Value (BDT)
                         </TableCell>
-                        <TableCell align="center" sx={{
-                          border: "0px solid rgba(0,0,0,0)",
-                        }}>
+                        <TableCell
+                          align="center"
+                          sx={{
+                            border: "0px solid rgba(0,0,0,0)",
+                          }}
+                        >
                           Cashback Amount (BDT)
                         </TableCell>
                       </TableRow>
                     </TableHead>
                     <TableBody>
                       <TableRow>
-                        <TableCell component="th" scope="row" rowSpan="2" sx={{
-                          border: "0px solid rgba(0,0,0,0)",
-                        }}>
+                        <TableCell
+                          component="th"
+                          scope="row"
+                          rowSpan="2"
+                          sx={{
+                            border: "0px solid rgba(0,0,0,0)",
+                          }}
+                        >
                           June ‘22
                         </TableCell>
-                        <TableCell align="center" sx={{
-                          border: "0px solid rgba(0,0,0,0)",
-                        }}>10,000</TableCell>
-                        <TableCell align="center" sx={{
-                          border: "0px solid rgba(0,0,0,0)",
-                        }}>500</TableCell>
+                        <TableCell
+                          align="center"
+                          sx={{
+                            border: "0px solid rgba(0,0,0,0)",
+                          }}
+                        >
+                          10,000
+                        </TableCell>
+                        <TableCell
+                          align="center"
+                          sx={{
+                            border: "0px solid rgba(0,0,0,0)",
+                          }}
+                        >
+                          500
+                        </TableCell>
                       </TableRow>
                       <TableRow>
                         {/* <TableCell component="th" scope="row">
                           July ‘22
                         </TableCell> */}
-                        <TableCell align="center" sx={{
-                          border: "0px solid rgba(0,0,0,0)",
-                        }}>5,000</TableCell>
-                        <TableCell align="center" sx={{
-                          border: "0px solid rgba(0,0,0,0)",
-                        }}>250</TableCell>
+                        <TableCell
+                          align="center"
+                          sx={{
+                            border: "0px solid rgba(0,0,0,0)",
+                          }}
+                        >
+                          5,000
+                        </TableCell>
+                        <TableCell
+                          align="center"
+                          sx={{
+                            border: "0px solid rgba(0,0,0,0)",
+                          }}
+                        >
+                          250
+                        </TableCell>
                       </TableRow>
                     </TableBody>
                   </Table>
@@ -223,48 +265,59 @@ const Offers = () => {
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                    You can get maximum cashback up to BDT 250 with a minimum transaction value of BDT 5,000 and cashback up to BDT 500 with a minimum transaction value of BDT 10,000. 
+                      You can get maximum cashback up to BDT 250 with a minimum
+                      transaction value of BDT 5,000 and cashback up to BDT 500
+                      with a minimum transaction value of BDT 10,000.
                     </span>
                   </li>
 
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                    The payback amount will be deposited into the same Deshi account from which you will pay the bill.
+                      The payback amount will be deposited into the same Deshi
+                      account from which you will pay the bill.
                     </span>
                   </li>
 
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                    This campaign will run from 30th June, 2022.
+                      This campaign will run from 1st June to 30th June.
                     </span>
                   </li>
 
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                    You must have an active Deshi account to receive this cash back.
+                      You must have an active Deshi account to receive this cash
+                      back.
                     </span>
                   </li>
 
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                    "ShareTrip" is entirely responsible for the information, products, and services related to this Campaign. Under this promotion, Deshi will only be responsible for the cashback as a payment service provider.
+                      "ShareTrip" is entirely responsible for the information,
+                      products, and services related to this Campaign. Under
+                      this promotion, Deshi will only be responsible for the
+                      cashback as a payment service provider.
                     </span>
                   </li>
 
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                    Deshi reserves the right to change, modify, or extend these terms and conditions, as well as to cancel this campaign, at any time and without warning.
+                      Deshi reserves the right to change, modify, or extend
+                      these terms and conditions, as well as to cancel this
+                      campaign, at any time and without warning.
                     </span>
                   </li>
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                    Any decision made by Deshi regarding this campaign will be made in Deshi's sole discretion and will be considered final.
+                      Any decision made by Deshi regarding this campaign will be
+                      made in Deshi's sole discretion and will be considered
+                      final.
                     </span>
                   </li>
 
@@ -291,33 +344,46 @@ const Offers = () => {
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                    Deshi will never ask you to reveal your Deshi account's One-time Password (OTP) or Personal Identification Number (PIN), nor will they ask you to make any payment to anyone.
+                      Deshi will never ask you to reveal your Deshi account's
+                      One-time Password (OTP) or Personal Identification Number
+                      (PIN), nor will they ask you to make any payment to
+                      anyone.
                     </span>
                   </li>
 
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                    In the event of a dispute, you will initially contact ShareTrip during the campaign period at the following numbers: +8809617617617.
+                      In the event of a dispute, you will initially contact
+                      ShareTrip during the campaign period at the following
+                      numbers: +8809617617617.
                     </span>
                   </li>
 
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                    It shall contact customers using only +8809617617617. For any confusion or conflict with regards to this campaign, you must end any other call and immediately call back to +8809617617617 to ascertain the authenticity of the call or for required information. 
+                      It shall contact customers using only +8809617617617. For
+                      any confusion or conflict with regards to this campaign,
+                      you must end any other call and immediately call back to
+                      +8809617617617 to ascertain the authenticity of the call
+                      or for required information. 
                     </span>
                   </li>
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                    Deshi will not be liable for any loss or damage resulting from any of the aforementioned reasons or any other third-party acts.
+                      Deshi will not be liable for any loss or damage resulting
+                      from any of the aforementioned reasons or any other
+                      third-party acts.
                     </span>
                   </li>
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                    In the event of a conflict between the English version and the Bangla version of the terms and conditions, the English version shall prevail.
+                      In the event of a conflict between the English version and
+                      the Bangla version of the terms and conditions, the
+                      English version shall prevail.
                     </span>
                   </li>
                 </ul>
