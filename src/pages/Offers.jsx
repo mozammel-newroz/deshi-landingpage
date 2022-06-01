@@ -154,11 +154,11 @@ const Offers = () => {
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
                       One user can get maximum up to BDT 500 during campaign
-                      period. Campaign cashback details:
+                      period.
                     </span>
                   </li>
                 </ul>
-                <TableContainer
+                {/* <TableContainer
                   component={Paper}
                   style={{
                     boxShadow: "0px 0px 1px 0px #F5F5F5",
@@ -237,9 +237,6 @@ const Offers = () => {
                         </TableCell>
                       </TableRow>
                       <TableRow>
-                        {/* <TableCell component="th" scope="row">
-                          July ‘22
-                        </TableCell> */}
                         <TableCell
                           align="center"
                           sx={{
@@ -259,15 +256,23 @@ const Offers = () => {
                       </TableRow>
                     </TableBody>
                   </Table>
-                </TableContainer>
+                </TableContainer> */}
 
                 <ul className={classes.ul}>
-                  <li className={classes.li}>
+                  {/* <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
                       You can get maximum cashback up to BDT 250 with a minimum
                       transaction value of BDT 5,000 and cashback up to BDT 500
                       with a minimum transaction value of BDT 10,000.
+                    </span>
+                  </li> */}
+
+                  <li className={classes.li}>
+                    <img src={circle} alt="" className={classes.circle} />
+                    <span>
+                      In a transaction you can get maximum cashback up to BDT
+                      250 with a minimum transaction value of BDT 5,000.
                     </span>
                   </li>
 
@@ -275,14 +280,14 @@ const Offers = () => {
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
                       The payback amount will be deposited into the same Deshi
-                      account from which you will pay the bill.
+                      account from which you will pay.
                     </span>
                   </li>
 
                   <li className={classes.li}>
                     <img src={circle} alt="" className={classes.circle} />
                     <span>
-                      This campaign will run from 1st June to 30th June.
+                      This campaign will run from 1st June, 2022 to 30th June 2022.
                     </span>
                   </li>
 

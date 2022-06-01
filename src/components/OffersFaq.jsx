@@ -88,7 +88,8 @@ const OffersFaq = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography variant="body2">
-          A maximum BDT 500 on a top-up of BDT 10,000 and they will be allowed to have maximum BDT 250 per BDT 5,000
+            Total cashback is BDT 500. Per transaction cashback limit is BDT 250
+            with a minimum transaction of BDT 5,000.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -105,7 +106,7 @@ const OffersFaq = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography variant="body2">
-          ...
+            By making payment (top-up) to ShareTrip B2B panel through Deshi.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -122,7 +123,9 @@ const OffersFaq = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography variant="body2">
-          ...
+            In one account you will get a maximum of BDT 500 cashback. Per
+            transaction maximum cashback is BDT 250 with a minimum transaction
+            of BDT 5,000
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -135,11 +138,33 @@ const OffersFaq = () => {
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
-          <Typography>Is there any charge when we Top-up in ShareTrip B2B panel?</Typography>
+          <Typography>
+            Is there any charge when we Top-up in ShareTrip B2B panel?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography variant="body2">
-          ...
+            ShareTrip will not charge anything on Top-up.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion
+        expanded={expanded === "panel55"}
+        onChange={handleChange("panel55")}
+      >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1bh-content"
+          id="panel1bh-header"
+        >
+          <Typography>
+            Is there any charges on any transaction of Deshi?
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography variant="body2">
+            Interestingly there is no charges on send money, mobile recharge and
+            other services of Deshi During the campaign period.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -156,7 +181,8 @@ const OffersFaq = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography variant="body2">
-          ...
+            Maximum 100 times we make payment to merchants per day and 500 times
+            per month.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -173,7 +199,8 @@ const OffersFaq = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography variant="body2">
-          ...
+            Using one Deshi account we can pau up to BDT 400,000 per day and per
+            month.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -186,17 +213,17 @@ const OffersFaq = () => {
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
-          <Typography>How long will this offer last and when will we get the cashback?</Typography>
+          <Typography>
+            How long will this offer last and when will we get the cashback?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography variant="body2">
-          ...
+            It’s a 1 month campaign so this offer is valid through out June’22
+            and the cashback is instant.
           </Typography>
         </AccordionDetails>
       </Accordion>
-
-      
-
     </>
   );
 };

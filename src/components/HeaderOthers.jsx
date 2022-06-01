@@ -3,7 +3,7 @@ import { makeStyles } from "@mui/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import { Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-import Menubar from "../components/Menubar";
+import MenubarOthers from "../components/MenubarOthers";
 
 const useStyle = makeStyles((theme) => ({
   root: {
@@ -34,7 +34,7 @@ const HeaderOthers = ({ title, link, category }) => {
   return (
     <>
       <CssBaseline />
-      <Menubar />
+      <MenubarOthers />
       <div className={classes.root}>
         {category === "offers" ? (
           <Typography variant="h3">{category}</Typography>
