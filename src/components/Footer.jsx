@@ -54,7 +54,6 @@ const useStyle = makeStyles((theme) => ({
     justifyContent: "center",
     alignItems: "center",
     "& div": {
-      flex: 1,
       [theme.breakpoints.down("sm")]: {
         padding: "10px 0px",
       },
@@ -77,6 +76,7 @@ const useStyle = makeStyles((theme) => ({
     },
   },
   bottom_menu: {
+    flex: 1,
     display: "flex",
     // justifyContent: "space-between",
     justifyContent: "flex-end",
@@ -138,25 +138,41 @@ function Footer() {
           <Grid item md={2}>
             <Typography variant="h6">Get Social</Typography>
             <div className={classes.icon_block_wrapper}>
-              <a className={classes.icon_block} href="https://www.facebook.com/PayWithDeshi" target="_blank" >
+              <a
+                className={classes.icon_block}
+                href="https://www.facebook.com/PayWithDeshi"
+                target="_blank"
+              >
                 <img src={facebook} alt="" />
                 <Typography variant="body2" className={classes.hide}>
                   Facebook
                 </Typography>
               </a>
-              <a className={classes.icon_block} href="https://twitter.com/PaywithDeshi" target="_blank" >
+              <a
+                className={classes.icon_block}
+                href="https://twitter.com/PaywithDeshi"
+                target="_blank"
+              >
                 <img src={twitter} alt="" />
                 <Typography variant="body2" className={classes.hide}>
                   Twitter
                 </Typography>
               </a>
-              <a className={classes.icon_block} href="https://www.linkedin.com/company/paywithdeshi" target="_blank" >  
+              <a
+                className={classes.icon_block}
+                href="https://www.linkedin.com/company/paywithdeshi"
+                target="_blank"
+              >
                 <img src={linkedin} alt="" />
                 <Typography variant="body2" className={classes.hide}>
                   Linkedin{" "}
                 </Typography>
               </a>
-              <a className={classes.icon_block} href="https://www.instagram.com/paywithdeshi" target="_blank" >
+              <a
+                className={classes.icon_block}
+                href="https://www.instagram.com/paywithdeshi"
+                target="_blank"
+              >
                 <img src={instagram} alt="" />
                 <Typography variant="body2" className={classes.hide}>
                   Instagram
@@ -179,7 +195,8 @@ function Footer() {
         >
           <div>
             <Typography variant="body1" className={classes.copyright}>
-              &copy; Copyrigt 2021. All Rights Reserved by Deshi
+              &copy; Copyright 2022. All Rights Reserved by Deshi a concern of
+              <strong> Green & Red Technologies Ltd.</strong>
             </Typography>
           </div>
           <div className={classes.bottom_menu}>

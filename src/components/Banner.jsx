@@ -167,7 +167,12 @@ const Banner = () => {
                 features
               </Typography>
               <Button variant="contained" className={classes.signup}>
-                <Link to="/signup">Signup for Free</Link>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.deshi.personal"
+                  target="_blank"
+                >
+                  Signup for Free
+                </a>
               </Button>
             </Grid>
           </Grid>

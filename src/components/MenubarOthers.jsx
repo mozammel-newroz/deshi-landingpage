@@ -149,7 +149,12 @@ const Header = () => {
               className={` ${classes.top_bar} ${classes.language_wrapper} `}
             >
               <Button variant="contained" className={classes.get_started}>
-                <Link to="/signup">Get Started </Link>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.deshi.personal"
+                  target="_blank"
+                >
+                  Get Started{" "}
+                </a>
               </Button>
               {/* <div className={classes.language}>
                 <img src={glob} alt="" />
