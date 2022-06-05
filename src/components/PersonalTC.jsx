@@ -820,6 +820,51 @@ const PersonalTC = () => {
         extent required, and the remaining provisions will remain valid and
         enforceable.
       </p>
+      <h4>23. Campaign Terms and Conditions</h4>
+      <h5>At ShareTrip pay using Deshi and get Instant Cashback</h5>
+      <p>
+        Zero charges on payments is amazing and getting cashback in addition to
+        that sounds fantastic. As a result, Deshi and ShareTrip have come up
+        with an amazing cashback offer for you.
+      </p>
+      <p>
+        Top up to ShareTrip and receive up to BDT 500 Instant Cashback via Deshi
+        payment.
+      </p>
+      <h5>Campaign Details</h5>
+      <p>
+        • When you use your Deshi account to pay through the merchant QR code or
+        online gateway, you will be eligible for a cashback of up to BDT 500.{" "}
+        <br />
+        • No additional charge on Top-Up during the campaign period <br />
+        • One Deshi user ID can get a maximum up to BDT 500 during the campaign
+        period. <br />
+        • Minimum transaction of BDT 5,000 and get maximum cashback of BDT 250
+        (twice). <br />
+        • The payback amount will be deposited into the same Deshi account from
+        which you will pay the bill. <br />
+        • This campaign will run from 1st June to 30th June 2022. <br />
+        • You must have an active Deshi account to receive this cashback. <br />
+        • Any user during the campaign period making a top-up to ShareTrip B2B
+        agent account using Deshi wallet will not be allowed to withdraw rather
+        they need to purchase and avail service from ShareTrip B2B panel.
+      </p>
+
+      <h5>Campaign Duration</h5>
+      <p>June 2022</p>
+
+      <h5>Terms and Conditions</h5>
+      <p>
+        Deshi announces that: <br />
+        Deshi will never ask you to reveal your Deshi account's One-time
+        Password (OTP) or Personal Identification Number (PIN), nor will they
+        ask you to make any payment to anyone.
+      </p>
+      <p>
+        For any confusion or conflict with regards to this campaign, you must
+        send any other call and immediately call back to +8809617617617 to
+        ascertain the authenticity of the call or for required information.
+      </p>
 
       <h4>Annexure A</h4>
       <table className="myTable">
