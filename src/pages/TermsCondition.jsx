@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useLocation, useHistory } from "react-router-dom";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import { makeStyles } from "@mui/styles";
@@ -51,10 +52,25 @@ const useStyle = makeStyles((theme) => ({
 
 const TermsCondition = () => {
   const classes = useStyle();
+  const location = useLocation();
+  const history = useHistory();
 
-  const [doc, setDoc] = useState("personal");
+  const [doc, setDoc] = useState("");
+
+  const handleChange = (e) => {
+    setDoc(e.target.value);
+    history.push(`/terms-condition?content=${e.target.value}`);
+    window.scrollTo(0, 0);
+  };
 
   useEffect(() => {
+    const search = location.search;
+    if (search) {
+      const query = new URLSearchParams(search).get("content");
+      setDoc(query);
+    } else {
+      setDoc("personal");
+    }
     window.scrollTo(0, 0);
   }, []);
 
@@ -75,7 +91,7 @@ const TermsCondition = () => {
                     id="demo-simple-select"
                     value={doc}
                     label="Table of Content"
-                    onChange={(e) => setDoc(e.target.value)}
+                    onChange={handleChange}
                   >
                     <MenuItem value="personal">Personal</MenuItem>
                     <MenuItem value="merchant">Merchant</MenuItem>
